@@ -16,14 +16,21 @@ Southeast Region members:
 
 ## Contact your BRR Lead
 Sarah Schmedes, PhD
+
 Florida Bureau of Public Health Laboratories
+
 Florida Department of Health
+
 sarah.schmedes@flhealth.gov
 
 ## Contact your WFD Lead
 Tonia Parrott, PhD
+
 Georgia Public Health Laboratory
+
 Georgia Department of Public Health
+
 Tonia.Parrott@dph.ga.gov
+
 
 Please visit back soon, as this page is actively being updated.
