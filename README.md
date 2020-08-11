@@ -20,7 +20,7 @@ To request a HiPerGator account, please follow these [instructions](hipergator/2
 ### Webinars
 * Southeast Bioinformatics Regional Resources (12/06/2019)
 * Intro to Linux (06/19/2020)
-* BaseSpace Command Line Interface (07/20/2020)\
+* BaseSpace Command Line Interface (07/20/2020)
  
 To download the slides and/or recordings for past webinars, please visit [here](webinars).
 
@@ -30,19 +30,19 @@ Please visit [https://github.com/CDCgov/SARS-CoV-2_Sequencing](https://github.co
 For more information on (or to join) SPHERES (SARS-CoV-2 Sequencing for Public Health Emergency Response, Epidemiology, and Surveillance) national consortium, please visit [https://www.cdc.gov/coronavirus/2019-ncov/covid-data/spheres.html](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/spheres.html). 
 
 ### Relevant Links
-CDC's Advanced Molecular Detection (AMD) program - [https://www.cdc.gov/amd/who-we-are/index.html](https://www.cdc.gov/amd/who-we-are/index.html)\ 
+CDC's Advanced Molecular Detection (AMD) program - [https://www.cdc.gov/amd/who-we-are/index.html](https://www.cdc.gov/amd/who-we-are/index.html) 
 StaPH-B (State Public Health Bioinformatics) Group - [http://www.staphb.org/](http://www.staphb.org/)
 
 ## Contact your BRR Lead
-Sarah Schmedes, PhD\ 
-Florida Bureau of Public Health Laboratories\ 
-Florida Department of Health\ 
-sarah.schmedes@flhealth.gov\ 
+Sarah Schmedes, PhD
+Florida Bureau of Public Health Laboratories 
+Florida Department of Health 
+sarah.schmedes@flhealth.gov
 
 ## Contact your WFD Lead
-Tonia Parrott, PhD\ 
-Georgia Public Health Laboratory\ 
-Georgia Department of Public Health\ 
-Tonia.Parrott@dph.ga.gov\ 
+Tonia Parrott, PhD
+Georgia Public Health Laboratory 
+Georgia Department of Public Health 
+Tonia.Parrott@dph.ga.gov
   
 Please visit back soon, as this page is actively being updated.
