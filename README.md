@@ -14,7 +14,18 @@ Southeast Region members:
 All Southeast region members have free access to shared computational resources on the high-performance computing (HPC) cluster at the University of Florida, known as "HiPerGator". Each state has their own storage allocation and has access to 64 CPUs to run analyses. 
 Additionally, each user has access to a local instance of Galaxy, maintained by UF's Research Computing staff.
 
+### Getting Started
 To request a HiPerGator account, please follow these [instructions](hipergator/20200807_SoutheastRegion_HiPerGatorAccountAccess.pdf).
+
+If this is your first time using HiPerGator (or any HPC), I highly recommend watching these short training [videos](https://help.rc.ufl.edu/doc/Training).
+
+Please see the [UFRC Help and Documentation](https://help.rc.ufl.edu/doc/UFRC_Help_and_Documentation) wiki page for detailed information about HiPerGator and submitting jobs.
+
+All materials related to HiPerGator can be found [here](hipergator).
+
+### Galaxy
+To access Galaxy, visit [https://galaxy.rc.ufl.edu/login](https://galaxy.rc.ufl.edu/login).<br />
+All materials related to Galaxy, provided by the Southeast BRR, can be found [here](hipergator/galaxy).
 
 
 ## Training Materials
@@ -46,5 +57,3 @@ Tonia Parrott, PhD<br />
 Georgia Public Health Laboratory<br /> 
 Georgia Department of Public Health<br /> 
 Tonia.Parrott@dph.ga.gov<br />
-  
-Please visit back soon, as this page is actively being updated.
