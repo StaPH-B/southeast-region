@@ -42,7 +42,7 @@ Please visit [https://github.com/CDCgov/SARS-CoV-2_Sequencing](https://github.co
 
 For more information on (or to join) the SPHERES (SARS-CoV-2 Sequencing for Public Health Emergency Response, Epidemiology, and Surveillance) national consortium, please visit [https://www.cdc.gov/coronavirus/2019-ncov/covid-data/spheres.html](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/spheres.html). 
 
-####Nextstrain
+#### Nextstrain
 Please visit [https://nextstrain.org/community/SESchmedes/sarscov2-southeast-usa/southeast](https://nextstrain.org/community/SESchmedes/sarscov2-southeast-usa/southeast) to view the Nextstrain build focused on the AMD Southeast Region. This build will be updated biweekly. You can drag and drop a .csv file with your own metadata to view additional inforamtion pertaining to your samples. The added metadata does not leave the browser.
 
 ### Relevant Links
