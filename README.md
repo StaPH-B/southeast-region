@@ -48,7 +48,7 @@ Please visit [https://nextstrain.org/community/SESchmedes/sarscov2-southeast-usa
 Additionally, SPHERES maintains state-level builds for all 50 states at [https://nextstrain.org/groups/spheres](https://nextstrain.org/groups/spheres). Click on your state to see the latest genomic epidemiology of SARS-CoV-2 in your state, and track variants of concern.
 
 #### Training and Other Resources for SARS-CoV-2
-CDC's COVID-19 Genomic Epidemiology Toolkit - A module-based training toolkit for public health officials to understand the application of genomics to epidemiologic investigations and public health response to SARS-CoV-2. [https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html](https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html)
+CDC's COVID-19 Genomic Epidemiology Toolkit - A module-based training toolkit for public health officials to understand the application of genomics to epidemiologic investigations and public health response to SARS-CoV-2. [https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html](https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html)<br />
 SARS-CoV-lineages - Up-to-date SARS-CoV-2 lineages, global variant reports, and a web-browser application (Pangolin) to determine lineage from fasta files. [https://cov-lineages.org/](https://cov-lineages.org/)
 
 
