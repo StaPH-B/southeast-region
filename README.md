@@ -45,6 +45,13 @@ For more information on (or to join) the SPHERES (SARS-CoV-2 Sequencing for Publ
 #### Nextstrain
 Please visit [https://nextstrain.org/community/SESchmedes/sarscov2-southeast-usa/southeast](https://nextstrain.org/community/SESchmedes/sarscov2-southeast-usa/southeast) to view the Nextstrain build focused on the AMD Southeast Region. This build will be updated biweekly. You can drag and drop a .csv file with your own metadata to view additional information pertaining to your samples. The added metadata does not leave the browser.
 
+Additionally, SPHERES maintains state-level builds for all 50 states at [https://nextstrain.org/groups/spheres](https://nextstrain.org/groups/spheres). Click on your state to see the latest genomic epidemiology of SARS-CoV-2 in your state, and track variants of concern.
+
+#### Training and Other Resources for SARS-CoV-2
+CDC's COVID-19 Genomic Epidemiology Toolkit - A module-based training toolkit for public health officials to understand the application of genomics to epidemiologic investigations and public health response to SARS-CoV-2. [https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html](https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html)
+SARS-CoV-lineages - Up-to-date SARS-CoV-2 lineages, global variant reports, and a web-browser application (Pangolin) to determine lineage from fasta files. [https://cov-lineages.org/](https://cov-lineages.org/)
+
+
 ### Relevant Links
 CDC's Advanced Molecular Detection (AMD) program - [https://www.cdc.gov/amd/who-we-are/index.html](https://www.cdc.gov/amd/who-we-are/index.html)<br /> 
 StaPH-B (State Public Health Bioinformatics) Group - [http://www.staphb.org/](http://www.staphb.org/)
