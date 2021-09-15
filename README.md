@@ -32,7 +32,8 @@ All materials related to Galaxy, provided by the Southeast BRR, can be found [he
 ### Webinars
 * Southeast Bioinformatics Regional Resources (12/06/2019)
 * Intro to Linux (06/19/2020)
-* BaseSpace Command Line Interface (07/20/2020)<br />
+* BaseSpace Command Line Interface (07/20/2020)
+* SARS-CoV-2 Data Submissions Training Series, Part 1-5 (09/15/2021 - )<br />
  
 To download the slides and/or recordings for past webinars, please visit [here](webinars).
 
