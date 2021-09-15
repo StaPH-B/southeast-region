@@ -4,7 +4,7 @@ This is the place where you can find all updated bioinformatics resources for th
 Southeast Region members:
 * Alabama
 * Georgia (Workforce Development (WFD) Lead)
-* Florida (Bioinformatics Regional Resource (BRR) Lead)
+* Florida (Bioinformatics Regional Resource (BRR) Lead and Workforce Development (WFD) Lead)
 * Louisiana
 * Mississippi
 * Puerto Rico
@@ -56,7 +56,7 @@ SARS-CoV-lineages - Up-to-date SARS-CoV-2 lineages, global variant reports, and 
 CDC's Advanced Molecular Detection (AMD) program - [https://www.cdc.gov/amd/who-we-are/index.html](https://www.cdc.gov/amd/who-we-are/index.html)<br /> 
 StaPH-B (State Public Health Bioinformatics) Group - [http://www.staphb.org/](http://www.staphb.org/)
 
-## Contact your BRR Lead
+## Contact your BRR/WFD Lead
 Sarah Schmedes, PhD<br />
 Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
