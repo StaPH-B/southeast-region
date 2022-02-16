@@ -11,11 +11,11 @@ Southeast Region members:
 * Tennessee
 
 ## HiPerGator Resources
-All Southeast region members have free access to shared computational resources on the high-performance computing (HPC) cluster at the University of Florida, known as "HiPerGator". Each state has their own storage allocation and has access to 64 CPUs to run analyses. 
+All Southeast region members have free access to shared computational resources on the high-performance computing (HPC) cluster at the University of Florida, known as "HiPerGator". Each state has their own storage allocation and has access to 150 CPUs to run analyses. 
 Additionally, each user has access to a local instance of Galaxy, maintained by UF's Research Computing staff.
 
 ### Getting Started
-To request a HiPerGator account, please follow these [instructions](hipergator/20200807_SoutheastRegion_HiPerGatorAccountAccess.pdf).
+To request a HiPerGator account, please follow these [instructions](hipergator/20220216_SoutheastRegion_HiPerGatorAccountAccess.pdf).
 
 If this is your first time using HiPerGator (or any HPC), I highly recommend watching these short training [videos](https://help.rc.ufl.edu/doc/Training).
 
@@ -57,13 +57,13 @@ SARS-CoV-lineages - Up-to-date SARS-CoV-2 lineages, global variant reports, and 
 CDC's Advanced Molecular Detection (AMD) program - [https://www.cdc.gov/amd/who-we-are/index.html](https://www.cdc.gov/amd/who-we-are/index.html)<br /> 
 StaPH-B (State Public Health Bioinformatics) Group - [http://www.staphb.org/](http://www.staphb.org/)
 
-## Contact your BRR/WFD Lead
+## Contact your BRR/co-WFD Lead
 Sarah Schmedes, PhD<br />
 Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
 sarah.schmedes@flhealth.gov<br />
 
-## Contact your WFD Lead
+## Contact your co-WFD Lead
 Tonia Parrott, PhD<br />
 Georgia Public Health Laboratory<br /> 
 Georgia Department of Public Health<br /> 
