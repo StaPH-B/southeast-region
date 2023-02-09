@@ -9,6 +9,7 @@ Southeast Region members:
 * Mississippi
 * Puerto Rico
 * Tennessee
+* U.S. Virgin Islands 
 
 ## HiPerGator Resources
 All Southeast region members have free access to shared computational resources on the high-performance computing (HPC) cluster at the University of Florida, known as "HiPerGator". Each state has their own storage allocation and has access to 150 CPUs to run analyses. 
@@ -63,8 +64,28 @@ Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
 sarah.schmedes@flhealth.gov<br />
 
+Molly Mitchell<br />
+Florida Bureau of Public Health Laboratories<br />
+Florida Department of Health<br />
+molly.mitchell@flhealth.gov<br />
+
+Lakshmi Thsaliki, MS<br />
+Florida Bureau of Public Health Laboratories<br />
+Florida Department of Health<br />
+lakshmi.thsaliki@flhealth.gov<br />
+
 ## Contact your co-WFD Lead
-Tonia Parrott, PhD<br />
+Tonia Parrott, PhD, HCLD (ABB)<br />
 Georgia Public Health Laboratory<br /> 
 Georgia Department of Public Health<br /> 
-Tonia.Parrott@dph.ga.gov<br />
+tonia.parrott@dph.ga.gov<br />
+
+Vijay Reddy, PhD<br />
+Georgia Public Health Laboratory<br /> 
+Georgia Department of Public Health<br />
+vijay.reddy@dph.ga.gov<br />
+
+Tatyana Kiryutina, MS<br />
+Georgia Public Health Laboratory<br /> 
+Georgia Department of Public Health<br /> 
+tatyana.kiryutina@dph.ga.gov<br />
