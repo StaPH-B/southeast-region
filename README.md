@@ -47,7 +47,16 @@ For more information on (or to join) the SPHERES (SARS-CoV-2 Sequencing for Publ
 #### Nextstrain
 Please visit [https://nextstrain.org/community/SESchmedes/sarscov2-southeast-usa/southeast](https://nextstrain.org/community/SESchmedes/sarscov2-southeast-usa/southeast) to view the Nextstrain build focused on the AMD Southeast Region. This build will be updated biweekly. You can drag and drop a .csv file with your own metadata to view additional information pertaining to your samples. The added metadata does not leave the browser.
 
-Additionally, SPHERES maintains state-level builds for all 50 states at [https://nextstrain.org/groups/spheres](https://nextstrain.org/groups/spheres). Click on your state to see the latest genomic epidemiology of SARS-CoV-2 in your state, and track variants of concern.
+Additionally, SPHERES maintains state-level builds for all 50 states at [https://nextstrain.org/groups/spheres](https://nextstrain.org/groups/spheres). Click on your state link below to see the latest genomic epidemiology of SARS-CoV-2 in your state, and track variants of concern.
+
+https://nextstrain.org/groups/spheres/ncov/alabama
+https://nextstrain.org/groups/spheres/ncov/florida
+https://nextstrain.org/groups/spheres/ncov/georgia
+https://nextstrain.org/groups/spheres/ncov/louisiana
+https://nextstrain.org/groups/spheres/ncov/mississippi
+https://nextstrain.org/groups/spheres/ncov/puerto-rico
+https://nextstrain.org/groups/spheres/ncov/tennessee
+https://nextstrain.org/groups/spheres/ncov/us-virgin-islands
 
 #### Training and Other Resources for SARS-CoV-2
 CDC's COVID-19 Genomic Epidemiology Toolkit - A module-based training toolkit for public health officials to understand the application of genomics to epidemiologic investigations and public health response to SARS-CoV-2. [https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html](https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html)<br />
