@@ -36,7 +36,8 @@ All materials related to Galaxy, provided by the Southeast BRR, can be found [he
 * BaseSpace Command Line Interface (07/20/2020)
 * SARS-CoV-2 Data Submissions Training Series, Part 1-5 (09/15/2021 - )<br />
  
-To download the slides and/or recordings for past trainings, please visit [here](meetings & trainings/trainings).
+To download the slides for past trainings, please visit [trainings](trainings).
+Recordings of these videos can be found on the Southeast Region Playlist within the StaPH-B youtube channel [link](https://www.youtube.com/watch?v=A19Dww-INJY&list=PLqK7eKDQdB7Z7OFKRs5t68m-a2Ad3m4Ow)
 
 ## Additional Resources
 ### SARS-CoV-2 Sequencing
