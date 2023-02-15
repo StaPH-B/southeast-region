@@ -31,8 +31,10 @@ All materials related to Galaxy, provided by the Southeast BRR, can be found [he
 
 ## Training Materials
 ### Trainings
-* Intro to Linux (06/19/2020)
-* BaseSpace Command Line Interface (07/20/2020)
+* Intro to Linux 101 (12/09/2022)
+* BaseSpace Command Line Interface (01/17/2023)
+* HPC and HiPerGator (HPG) (12/08/2022)
+* Analysis Options (01/05/2023)
 * Tree annotations using R 
 * SARS-CoV-2 Data Submissions Training Series, Part 1-5 (09/15/2021)<br />
 
