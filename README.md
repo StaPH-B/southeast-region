@@ -31,11 +31,14 @@ All materials related to Galaxy, provided by the Southeast BRR, can be found [he
 
 ## Training Materials
 ### Trainings
-* Southeast Bioinformatics Regional Resources (12/06/2019)
 * Intro to Linux (06/19/2020)
 * BaseSpace Command Line Interface (07/20/2020)
-* SARS-CoV-2 Data Submissions Training Series, Part 1-5 (09/15/2021 - )<br />
- 
+* Tree annotations using R 
+* SARS-CoV-2 Data Submissions Training Series, Part 1-5 (09/15/2021)<br />
+
+### Meetings
+* AMD SE Region Check-in Call (02/02/2023)
+
 To download the slides for past trainings, please visit [trainings](trainings).
 Recordings of these videos can be found on the Southeast Region Playlist within the StaPH-B youtube channel [link](https://www.youtube.com/watch?v=A19Dww-INJY&list=PLqK7eKDQdB7Z7OFKRs5t68m-a2Ad3m4Ow)
 
