@@ -75,7 +75,7 @@ Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
 sarah.schmedes@flhealth.gov<br />
 
-Molly Mitchell<br />
+Molly Mitchell, PhD<br />
 Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
 molly.mitchell@flhealth.gov<br />
