@@ -16,7 +16,7 @@ All Southeast region members have free access to shared computational resources 
 Additionally, each user has access to a local, private instance of Galaxy, maintained by UF's Research Computing staff. We currently are not providing additional trainings related to Galaxy. For and training or guidance requests please email bphl-sebioinformatics@flhealth.gov
 
 ### Getting Started
-To request a HiPerGator account, please follow these [instructions](hipergator/20230213_SoutheastRegion_HiPerGatorAccountAccess.pdf).
+To request a HiPerGator account, please follow these [instructions](hipergator/20230608_SoutheastRegion_HiPerGatorAccountAccess.pdf).
 
 If this is your first time using HiPerGator (or any HPC), I highly recommend watching these short training [videos](https://help.rc.ufl.edu/doc/Training).
 
