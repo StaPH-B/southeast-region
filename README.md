@@ -70,11 +70,6 @@ CDC's Advanced Molecular Detection (AMD) program - [https://www.cdc.gov/amd/who-
 StaPH-B (State Public Health Bioinformatics) Group - [http://www.staphb.org/](http://www.staphb.org/)
 
 ## Contact your BRR/co-WFD Lead
-Sarah Schmedes, PhD<br />
-Florida Bureau of Public Health Laboratories<br />
-Florida Department of Health<br />
-sarah.schmedes@flhealth.gov<br />
-
 Molly Mitchell, PhD<br />
 Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
