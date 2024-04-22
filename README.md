@@ -71,6 +71,7 @@ StaPH-B (State Public Health Bioinformatics) Group - [http://www.staphb.org/](ht
 
 ## Contact your BRR/co-WFD Lead
 Molly Mitchell, PhD<br />
+Bioinformatics Supervisor<br />
 Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
 molly.mitchell@flhealth.gov<br />
