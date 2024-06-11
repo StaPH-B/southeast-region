@@ -76,11 +76,6 @@ Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
 molly.mitchell@flhealth.gov<br />
 
-Lakshmi Thsaliki, MS<br />
-Florida Bureau of Public Health Laboratories<br />
-Florida Department of Health<br />
-lakshmi.thsaliki@flhealth.gov<br />
-
 ## Contact your co-WFD Lead
 Tonia Parrott, PhD, HCLD (ABB)<br />
 Georgia Public Health Laboratory<br /> 
