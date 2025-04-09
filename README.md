@@ -90,11 +90,6 @@ Georgia Public Health Laboratory<br />
 Georgia Department of Public Health<br /> 
 tonia.parrott@dph.ga.gov<br />
 
-Arunachalam Ramaiah, MS, PhD<br />
-Georgia Public Health Laboratory<br /> 
-Georgia Department of Public Health<br />
-arunachalam.ramaiah@dph.ga.gov<br />
-
 Tatyana Kiryutina, MS<br />
 Georgia Public Health Laboratory<br /> 
 Georgia Department of Public Health<br /> 
