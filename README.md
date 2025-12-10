@@ -71,7 +71,7 @@ SARS-CoV-lineages - Up-to-date SARS-CoV-2 lineages, global variant reports, and 
 CDC's Advanced Molecular Detection (AMD) program - [https://www.cdc.gov/amd/who-we-are/index.html](https://www.cdc.gov/amd/who-we-are/index.html)<br /> 
 StaPH-B (State Public Health Bioinformatics) Group - [http://www.staphb.org/](http://www.staphb.org/)
 
-## Contact your BRR/co-WFD Lead
+## Contact your BRR/co-BTL Lead
 Molly Mitchell, PhD<br />
 Bioinformatics Supervisor<br />
 Florida Bureau of Public Health Laboratories<br />
@@ -84,7 +84,7 @@ Florida Bureau of Public Health Laboratories<br />
 Florida Department of Health<br />
 nikhil.yengala@flhealth.gov<br />
 
-## Contact your co-WFD Lead
+## Contact your co-BTL Lead
 Arunachalam Ramaiah, MS, PhD<br />
 Director, Bioinformatics & Pathogen Genomics Center of Excellence<br /> 
 Georgia Public Health Laboratory, Georgia Department of Public Health<br /> 
