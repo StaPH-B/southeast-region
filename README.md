@@ -5,8 +5,8 @@ This is the place where you can find all updated bioinformatics resources for th
 
 Southeast Region members:
 * Alabama
-* Georgia (Workforce Development (WFD) Lead)
-* Florida (Bioinformatics Regional Resource (BRR) Lead and Workforce Development (WFD) Lead)
+* Georgia (co-Bioinformaitcs Training Lead (BTL))
+* Florida (Bioinformatics Regional Resource (BRR) Lead co-Bioinformaitcs Training Lead (BTL))
 * Louisiana
 * Mississippi
 * Puerto Rico
