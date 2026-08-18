@@ -1,0 +1,24 @@
+CUSTOM_DUMPSOFTWAREVERSIONS:
+  python: 3.11.0
+  yaml: '6.0'
+FASTP:
+  fastp: 0.23.4
+IQTREE:
+  iqtree2: 2.3.4
+POPPUNK_ASSIGN:
+  poppunk: 2.6.5
+POPPUNK_VISUAL:
+  poppunk: 2.6.5
+SAMPLESHEET_CHECK:
+  python: 3.8.3
+SEQTK_SEQ:
+  seqtk: 1.3-r106
+SNIPPY_CORE:
+  snippy: 4.6.0
+SNIPPY_SINGLE:
+  snippy: 4.6.0
+SNP_DISTS:
+  snp-dists: 0.8.2
+Workflow:
+  DOH-JDJ0303/bigbacter: 1.0dev
+  Nextflow: 24.04.2

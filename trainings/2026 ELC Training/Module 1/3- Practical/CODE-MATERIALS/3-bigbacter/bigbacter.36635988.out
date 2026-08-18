@@ -1,0 +1,3075 @@
+
+ N E X T F L O W   ~  version 24.04.2
+
+Launching `https://github.com/DOH-JDJ0303/bigbacter-nf` [gigantic_pare] DSL2 - revision: b45e41384c [main]
+
+
+
+------------------------------------------------------
+                                        ,--./,-.
+        ___     __   __   __   ___     /,-._.--~'
+  |\ | |__  __ /  ` /  \ |__) |__         }  {
+  | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                        `._,._,'
+  DOH-JDJ0303/bigbacter v1.0dev-gb45e413
+------------------------------------------------------
+Core Nextflow options
+  revision                  : main
+  runName                   : gigantic_pare
+  containerEngine           : singularity
+  container                 : [TIMESTAMP:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, NCBI_DATASETS:public.ecr.aws/o8h2f0o1/ncbi-datasets:16.15.0, FORMAT_ASSEMBLY:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, POPPUNK_ASSIGN:public.ecr.aws/o8h2f0o1/poppunk:2.6.5, POPPUNK_VISUAL:public.ecr.aws/o8h2f0o1/poppunk:2.6.5, RESOLVE_MERGED_CLUSTERS:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, SNIPPY_SINGLE:public.ecr.aws/o8h2f0o1/snippy:4.6.0-SC2, SNIPPY_CORE:public.ecr.aws/o8h2f0o1/snippy:4.6.0-SC2, SNP_DISTS:public.ecr.aws/o8h2f0o1/snp-dists:0.8.2, IQTREE:public.ecr.aws/o8h2f0o1/iqtree2:2.3.4, TREE_FIGURE:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, FORMAT_DIST:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, DIST_MAT:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, MRFIGS:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, SUMMARY_TABLE:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, COMBINED_SUMMARY:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, PUSH_CLUSTER_FILES:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, PUSH_TAXA_FILES:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, PREPARE_DB_MOD:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0]
+  launchDir                 : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter
+  workDir                   : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/work
+  projectDir                : /home/tkiryutina/.nextflow/assets/DOH-JDJ0303/bigbacter-nf
+  userName                  : tkiryutina
+  profile                   : singularity,acinetobacter_baumannii_db
+  configFiles               : /home/tkiryutina/.nextflow/assets/DOH-JDJ0303/bigbacter-nf/nextflow.config
+
+Input/output options
+  input                     : /home/tkiryutina/.nextflow/assets/DOH-JDJ0303/bigbacter-nf/assets/datasets/Acinetobacter_baumannii_db.csv
+  outdir                    : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/results
+  db                        : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+
+QC: Variant Calling
+  min_genfrac               : 85
+
+Tree options
+  max_ml                    : 500
+
+Institutional config options
+  config_profile_name       : Acinetobacter_baumannii Databases
+  config_profile_description: Acinetobacter_baumannii PopPUNK databases
+
+Max job request options
+  max_cpus                  : 4
+  max_memory                : 8.GB
+  max_time                  : 12.h
+
+Other parameters
+  schema_ignore_params      : genomes,input,ncbi
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+------------------------------------------------------
+If you use DOH-JDJ0303/bigbacter for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+  https://github.com/DOH-JDJ0303/bigbacter/blob/master/CITATIONS.md
+------------------------------------------------------
+[-        ] PRE…EPARE_DB_WF:PREPARE_DB_MOD -
+
+[-        ] PRE…EPARE_DB_WF:PREPARE_DB_MOD -
+Staging foreign file: http://ftp.ebi.ac.uk/pub/databases/pp_dbs/Acinetobacter_baumannii_v1_refs.tar.bz2
+
+executor >  local (1)
+[48/310d3e] PRE…E_DB_WF:PREPARE_DB_MOD (1) | 0 of 1
+Staging foreign file: http://ftp.ebi.ac.uk/pub/databases/pp_dbs/Acinetobacter_baumannii_v1_refs.tar.bz2
+
+executor >  local (1)
+[48/310d3e] PRE…E_DB_WF:PREPARE_DB_MOD (1) | 1 of 1 ✔
+
+
+executor >  local (1)
+[48/310d3e] PRE…E_DB_WF:PREPARE_DB_MOD (1) | 1 of 1 ✔
+-[DOH-JDJ0303/bigbacter] Pipeline completed successfully-
+-[DOH-JDJ0303/bigbacter] Pipeline completed successfully-
+
+executor >  local (1)
+[48/310d3e] PRE…E_DB_WF:PREPARE_DB_MOD (1) | 1 of 1 ✔
+-[DOH-JDJ0303/bigbacter] Pipeline completed successfully-
+-[DOH-JDJ0303/bigbacter] Pipeline completed successfully-
+
+
+ N E X T F L O W   ~  version 24.04.2
+
+Launching `https://github.com/DOH-JDJ0303/bigbacter-nf` [clever_galileo] DSL2 - revision: 64473eb332 [v1.0.0]
+
+
+
+------------------------------------------------------
+                                        ,--./,-.
+        ___     __   __   __   ___     /,-._.--~'
+  |\ | |__  __ /  ` /  \ |__) |__         }  {
+  | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                        `._,._,'
+  DOH-JDJ0303/bigbacter v1.0dev-g64473eb
+------------------------------------------------------
+Core Nextflow options
+  revision            : v1.0.0
+  runName             : clever_galileo
+  containerEngine     : singularity
+  container           : [TIMESTAMP:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, NCBI_DATASETS:public.ecr.aws/o8h2f0o1/ncbi-datasets:16.15.0, FORMAT_ASSEMBLY:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, POPPUNK_ASSIGN:public.ecr.aws/o8h2f0o1/poppunk:2.6.5, POPPUNK_VISUAL:public.ecr.aws/o8h2f0o1/poppunk:2.6.5, RESOLVE_MERGED_CLUSTERS:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, SNIPPY_SINGLE:public.ecr.aws/o8h2f0o1/snippy:4.6.0-SC2, SNIPPY_CORE:public.ecr.aws/o8h2f0o1/snippy:4.6.0-SC2, SNP_DISTS:public.ecr.aws/o8h2f0o1/snp-dists:0.8.2, IQTREE:public.ecr.aws/o8h2f0o1/iqtree2:2.3.4, TREE_FIGURE:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, FORMAT_DIST:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, DIST_MAT:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, MRFIGS:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, SUMMARY_TABLE:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, COMBINED_SUMMARY:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, PUSH_CLUSTER_FILES:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, PUSH_TAXA_FILES:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0, PREPARE_DB_MOD:public.ecr.aws/o8h2f0o1/bigbacter-base:1.0.0]
+  launchDir           : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter
+  workDir             : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/work
+  projectDir          : /home/tkiryutina/.nextflow/assets/DOH-JDJ0303/bigbacter-nf
+  userName            : tkiryutina
+  profile             : singularity
+  configFiles         : /home/tkiryutina/.nextflow/assets/DOH-JDJ0303/bigbacter-nf/nextflow.config, /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/bb_override.config
+
+Input/output options
+  input               : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/samplesheet.csv
+  outdir              : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/results
+  db                  : /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+
+QC: Variant Calling
+  min_genfrac         : 85
+
+Tree options
+  max_ml              : 500
+
+Other parameters
+  schema_ignore_params: genomes,input,ncbi
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+------------------------------------------------------
+If you use DOH-JDJ0303/bigbacter for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+  https://github.com/DOH-JDJ0303/bigbacter/blob/master/CITATIONS.md
+------------------------------------------------------
+[-        ] NFC…BACTER:BIGBACTER:TIMESTAMP -
+[-        ] NFC…UT_CHECK:SAMPLESHEET_CHECK -
+
+[-        ] NFC…BACTER:BIGBACTER:TIMESTAMP -
+[-        ] NFC…UT_CHECK:SAMPLESHEET_CHECK -
+[-        ] NFC…BACTER:BIGBACTER:SEQTK_SEQ -
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP -
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+
+[-        ] NFC…BACTER:BIGBACTER:TIMESTAMP -
+[-        ] NFC…UT_CHECK:SAMPLESHEET_CHECK -
+[-        ] NFC…BACTER:BIGBACTER:SEQTK_SEQ -
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP -
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 2 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+[-        ] NFC…BACTER:BIGBACTER:TIMESTAMP | 0 of 1
+[-        ] NFC…UT_CHECK:SAMPLESHEET_CHECK -
+[-        ] NFC…BACTER:BIGBACTER:SEQTK_SEQ -
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP -
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (1)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 0 of 1
+[-        ] NFC…UT_CHECK:SAMPLESHEET_CHECK -
+[-        ] NFC…BACTER:BIGBACTER:SEQTK_SEQ -
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP -
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (2)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 0 of 1
+[-        ] NFC…BACTER:BIGBACTER:SEQTK_SEQ -
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP -
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (6)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[a8/d53e6d] NFC…SEQTK_SEQ (2025LY00044_T1) | 0 of 18
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP -
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (10)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[8d/da6e65] NFC…SEQTK_SEQ (2025LY00033_T1) | 0 of 24
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP -
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (11)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[af/2b3778] NFC…SEQTK_SEQ (2025LY00040_T1) | 1 of 24
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP -
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (18)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[96/1a08c7] NFC…SEQTK_SEQ (2025LY00046_T1) | 8 of 24
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP | 0 of 8
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (18)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[96/1a08c7] NFC…SEQTK_SEQ (2025LY00046_T1) | 8 of 24
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP | 0 of 8
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (22)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[1e/4a4b5d] NFC…SEQTK_SEQ (2025LY00039_T1) | 12 of 24
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP | 0 of 12
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (26)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 16 of 24
+[-        ] NFC…_BIGBACTER:BIGBACTER:FASTP | 0 of 16
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (30)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[e1/f70616] NFC…TER:FASTP (2025LY00045_T1) | 0 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (30)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[e1/f70616] NFC…TER:FASTP (2025LY00045_T1) | 0 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY -
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (31)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[c5/5c2ac2] NFC…TER:FASTP (2025LY00034_T1) | 1 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 1
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (32)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[5e/e9735a] NFC…TER:FASTP (2025LY00043_T1) | 2 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 1
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (32)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[5e/e9735a] NFC…TER:FASTP (2025LY00043_T1) | 2 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 2
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (33)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[89/7f4da2] NFC…TER:FASTP (2025LY00035_T1) | 3 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 3
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (34)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[bb/e436c3] NFC…TER:FASTP (2025LY00033_T1) | 4 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 4
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (34)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[bb/e436c3] NFC…TER:FASTP (2025LY00033_T1) | 4 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 4
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (35)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[39/bfaeb4] NFC…TER:FASTP (2025LY00047_T1) | 5 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 5
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (35)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[39/bfaeb4] NFC…TER:FASTP (2025LY00047_T1) | 5 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 5
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (36)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[51/4dc921] NFC…TER:FASTP (2025LY00041_T1) | 6 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 6
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (36)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[51/4dc921] NFC…TER:FASTP (2025LY00041_T1) | 6 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 6
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (37)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[32/f7989a] NFC…ER:FASTP (2025LY00031R_T1) | 7 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 7
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (38)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[54/854fa6] NFC…TER:FASTP (2025LY00039_T1) | 8 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 8
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (39)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[5f/a11d1e] NFC…TER:FASTP (2025LY00038_T1) | 9 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 9
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (40)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[8d/2d8e19] NFC…TER:FASTP (2025LY00037_T1) | 10 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 10
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (41)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[ce/466456] NFC…TER:FASTP (2025LY00036_T1) | 11 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 11
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (41)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[ce/466456] NFC…TER:FASTP (2025LY00036_T1) | 11 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 11
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (42)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[e3/160fcc] NFC…TER:FASTP (2025LY00046_T1) | 12 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 12
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (43)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[96/885126] NFC…TER:FASTP (2025LY00053_T1) | 13 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 13
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (43)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[96/885126] NFC…TER:FASTP (2025LY00053_T1) | 13 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 13
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (44)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[59/d201d5] NFC…ER:FASTP (2025LY00052R_T1) | 14 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 14
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (44)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[59/d201d5] NFC…ER:FASTP (2025LY00052R_T1) | 14 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 14
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (45)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[a4/1c7065] NFC…TER:FASTP (2025LY00051_T1) | 15 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 15
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (45)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[a4/1c7065] NFC…TER:FASTP (2025LY00051_T1) | 15 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 15
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (46)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[4c/eb30c1] NFC…TER:FASTP (2025LY00048_T1) | 16 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 16
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (46)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[4c/eb30c1] NFC…TER:FASTP (2025LY00048_T1) | 16 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 16
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (47)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[8f/59fb17] NFC…TER:FASTP (2025LY00049_T1) | 17 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 17
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (48)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 18 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 18
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (49)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b4/8eb927] NFC…TER:FASTP (2025LY00055_T1) | 19 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 19
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (50)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 20 of 24
+[-        ] NFC…:BIGBACTER:FORMAT_ASSEMBLY | 0 of 20
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (52)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[4c/eb30c1] NFC…TER:FASTP (2025LY00048_T1) | 21 of 24
+[52/7073d5] NFC…_ASSEMBLY (2025LY00045_T1) | 0 of 21
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (53)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[4c/eb30c1] NFC…TER:FASTP (2025LY00048_T1) | 21 of 24
+[d1/bc01cf] NFC…_ASSEMBLY (2025LY00040_T1) | 1 of 21
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (54)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[4c/eb30c1] NFC…TER:FASTP (2025LY00048_T1) | 21 of 24
+[d3/8dd3a8] NFC…_ASSEMBLY (2025LY00042_T1) | 2 of 21
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (58)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 22 of 24
+[d3/8dd3a8] NFC…_ASSEMBLY (2025LY00042_T1) | 4 of 22
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (58)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 22 of 24
+[d3/8dd3a8] NFC…_ASSEMBLY (2025LY00042_T1) | 4 of 22
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (62)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 22 of 24
+[0a/2a0f19] NFC…_ASSEMBLY (2025LY00038_T1) | 8 of 22
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (63)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 22 of 24
+[83/c860b4] NFC…_ASSEMBLY (2025LY00039_T1) | 9 of 22
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (66)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 22 of 24
+[0a/2a0f19] NFC…_ASSEMBLY (2025LY00038_T1) | 12 of 22
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (70)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 22 of 24
+[62/20fb23] NFC…ASSEMBLY (2025LY00052R_T1) | 16 of 22
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (72)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 22 of 24
+[14/b4ae6b] NFC…_ASSEMBLY (2025LY00049_T1) | 20 of 22
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (72)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[f6/5ff485] NFC…TER:FASTP (2025LY00050_T1) | 22 of 24
+[90/9138e1] NFC…_ASSEMBLY (2025LY00050_T1) | 22 of 22
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (73)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b4/8eb927] NFC…TER:FASTP (2025LY00055_T1) | 23 of 24
+[9a/268176] NFC…_ASSEMBLY (2025LY00055_T1) | 22 of 23
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (73)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b4/8eb927] NFC…TER:FASTP (2025LY00055_T1) | 23 of 24
+[9a/268176] NFC…_ASSEMBLY (2025LY00055_T1) | 23 of 23
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN -
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (74)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 23 of 24
+[-        ] NFC…TER:CLUSTER:POPPUNK_ASSIGN | 0 of 1
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (75)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 0 of 1
+[-        ] NFC…TER:CLUSTER:POPPUNK_VISUAL -
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+WARN: Access to undefined parameter `enable_conda` -- Initialise it to a default value eg. `params.enable_conda = some_value`
+
+executor >  local (76)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 0 of 1
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[-        ] NFC…GBACTER:CORE:SNIPPY_SINGLE -
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+
+executor >  local (77)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 0 of 1
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[4c/ff83b6] NFC…PY_SINGLE (2025LY00054_T1) | 0 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+
+executor >  local (78)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[13/b29185] NFC…PY_SINGLE (2025LY00039_T1) | 0 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (79)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[4c/ff83b6] NFC…PY_SINGLE (2025LY00054_T1) | 1 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (80)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[13/b29185] NFC…PY_SINGLE (2025LY00039_T1) | 2 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (81)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[8e/459f2a] NFC…PY_SINGLE (2025LY00038_T1) | 3 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (82)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[35/895f59] NFC…PY_SINGLE (2025LY00037_T1) | 4 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (83)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[cc/2e2b59] NFC…PY_SINGLE (2025LY00046_T1) | 5 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (83)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[cc/2e2b59] NFC…PY_SINGLE (2025LY00046_T1) | 5 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (84)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[9a/75d373] NFC…PY_SINGLE (2025LY00049_T1) | 6 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (84)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[9a/75d373] NFC…PY_SINGLE (2025LY00049_T1) | 6 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (85)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[33/69dfff] NFC…PY_SINGLE (2025LY00043_T1) | 7 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (85)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[33/69dfff] NFC…PY_SINGLE (2025LY00043_T1) | 7 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (86)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[6c/69fb34] NFC…PY_SINGLE (2025LY00044_T1) | 8 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (86)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[6c/69fb34] NFC…PY_SINGLE (2025LY00044_T1) | 8 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (87)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[18/b81d1b] NFC…PY_SINGLE (2025LY00033_T1) | 9 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (88)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[bb/348c40] NFC…PY_SINGLE (2025LY00040_T1) | 10 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (89)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[0a/10ce7b] NFC…PY_SINGLE (2025LY00048_T1) | 11 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (90)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[89/31b904] NFC…PY_SINGLE (2025LY00045_T1) | 12 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (91)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[6d/08f694] NFC…PY_SINGLE (2025LY00042_T1) | 13 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (92)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[0d/a8bc6a] NFC…PY_SINGLE (2025LY00047_T1) | 14 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (93)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[be/7fec8f] NFC…PY_SINGLE (2025LY00053_T1) | 15 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (93)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[be/7fec8f] NFC…PY_SINGLE (2025LY00053_T1) | 15 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (94)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[7d/dd3020] NFC…Y_SINGLE (2025LY00052R_T1) | 16 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (95)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[bd/859213] NFC…PY_SINGLE (2025LY00034_T1) | 17 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (95)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[bd/859213] NFC…PY_SINGLE (2025LY00034_T1) | 17 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (96)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[21/547366] NFC…PY_SINGLE (2025LY00041_T1) | 18 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (98)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[7c/a5e144] NFC…PY_SINGLE (2025LY00051_T1) | 20 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (98)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[7c/a5e144] NFC…PY_SINGLE (2025LY00051_T1) | 20 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (99)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[a5/2e575f] NFC…PY_SINGLE (2025LY00036_T1) | 21 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (100)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[11/af73ac] NFC…Y_SINGLE (2025LY00031R_T1) | 22 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (100)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[28/ce4936] NFC…PY_SINGLE (2025LY00050_T1) | 23 of 24
+[-        ] NFC…BIGBACTER:CORE:SNIPPY_CORE -
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+executor >  local (102)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 0 of 2
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[-        ] NFC…R:BIGBACTER:CORE:SNP_DISTS -
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+
+executor >  local (103)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[42/027cc9] NFC…etobacter_baumannii_00007) | 1 of 2
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[9b/918c12] NFC…er_baumannii_00007_snippy) | 0 of 1
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+
+executor >  local (103)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[42/027cc9] NFC…etobacter_baumannii_00007) | 1 of 2
+[-        ] NFC…TER:BIGBACTER:CORE:GUBBINS -
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[-        ] NFC…CTER:BIGBACTER:CORE:IQTREE -
+[9b/918c12] NFC…er_baumannii_00007_snippy) | 1 of 1
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+
+executor >  local (106)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 0 of 1
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 0 of 1
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 1 of 2
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+
+executor >  local (106)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 0 of 1
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 0 of 1
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 1 of 2
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+
+executor >  local (106)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 0 of 1
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 0 of 1
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+
+executor >  local (106)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 0 of 1
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[-        ] NFC…BIGBACTER:CORE:TREE_FIGURE -
+[-        ] NFC…ER:BIGBACTER:CORE:DIST_MAT -
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (109)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 0 of 1
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 0 of 2
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+Plus 3 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (110)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 0 of 1
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 0 of 2
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (110)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 0 of 1
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 0 of 2
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[-        ] NFC…IGBACTER:BIGBACTER:MULTIQC | 0 of 1
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (111)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 0 of 1
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 0 of 2
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 0 of 1
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (111)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 0 of 1
+[00/f59a92] NFC…er_baumannii_00007_snippy) | 1 of 2
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[-        ] NFC…ER:BIGBACTER:SUMMARY_TABLE -
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 0 of 1
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (113)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 0 of 1
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[-        ] NFC…CTER:ACCESSORY:FORMAT_DIST -
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[bf/768d15] NFC…etobacter_baumannii_00007) | 0 of 2
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 0 of 1
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (114)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 0 of 1
+[-        ] NFC…GBACTER:ACCESSORY:DIST_MAT -
+[bf/768d15] NFC…etobacter_baumannii_00007) | 0 of 2
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 0 of 1
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (115)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 1 of 1 ✔
+[97/7c456d] NFC…r_baumannii_00001_poppunk) | 0 of 1
+[bf/768d15] NFC…etobacter_baumannii_00007) | 0 of 2
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 1 of 1 ✔
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (115)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 1 of 1 ✔
+[97/7c456d] NFC…r_baumannii_00001_poppunk) | 0 of 1
+[bf/768d15] NFC…etobacter_baumannii_00007) | 1 of 2
+[-        ] NFC…BIGBACTER:COMBINED_SUMMARY -
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 1 of 1 ✔
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (116)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 1 of 1 ✔
+[97/7c456d] NFC…r_baumannii_00001_poppunk) | 0 of 1
+[3c/71bbfa] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[fd/fb1aa7] NFC…BINED_SUMMARY (1783565569) | 0 of 1
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 1 of 1 ✔
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (116)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 1 of 1 ✔
+[97/7c456d] NFC…r_baumannii_00001_poppunk) | 0 of 1
+[3c/71bbfa] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[fd/fb1aa7] NFC…BINED_SUMMARY (1783565569) | 1 of 1 ✔
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 1 of 1 ✔
+Plus 1 more processes waiting for tasks…
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (117)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 1 of 1 ✔
+[97/7c456d] NFC…r_baumannii_00001_poppunk) | 1 of 1 ✔
+[3c/71bbfa] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[fd/fb1aa7] NFC…BINED_SUMMARY (1783565569) | 1 of 1 ✔
+[64/b488f7] NFC…er_baumannii-00001.snippy) | 0 of 1
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 1 of 1 ✔
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (117)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 1 of 1 ✔
+[97/7c456d] NFC…r_baumannii_00001_poppunk) | 1 of 1 ✔
+[3c/71bbfa] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[fd/fb1aa7] NFC…BINED_SUMMARY (1783565569) | 1 of 1 ✔
+[64/b488f7] NFC…er_baumannii-00001.snippy) | 1 of 1 ✔
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 1 of 1 ✔
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (117)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 1 of 1 ✔
+[97/7c456d] NFC…r_baumannii_00001_poppunk) | 1 of 1 ✔
+[3c/71bbfa] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[fd/fb1aa7] NFC…BINED_SUMMARY (1783565569) | 1 of 1 ✔
+[64/b488f7] NFC…er_baumannii-00001.snippy) | 1 of 1 ✔
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 1 of 1 ✔
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+-[DOH-JDJ0303/bigbacter] Pipeline completed successfully, but with errored process(es) -
+
+------------------------------------------------------
+
+Next steps:
+1. Check your results
+2. Run the command below to push this run to your database
+
+> nextflow run DOH-JDJ0303/bigbacter-nf -r v1.0.0 -profile singularity --input /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/samplesheet.csv --db /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db --outdir /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/results --max_cpus 16 -c /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/bb_override.config --push true -resume
+
+------------------------------------------------------
+
+-[DOH-JDJ0303/bigbacter] Pipeline completed successfully, but with errored process(es) -
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+
+executor >  local (117)
+[cc/0951aa] NFC…BACTER:BIGBACTER:TIMESTAMP | 1 of 1 ✔
+[cc/edbe55] NFC…ET_CHECK (samplesheet.csv) | 1 of 1 ✔
+[85/18578a] NFC…SEQTK_SEQ (2025LY00054_T1) | 24 of 24 ✔
+[b1/c37a02] NFC…TER:FASTP (2025LY00054_T1) | 24 of 24 ✔
+[13/cf7f69] NFC…_ASSEMBLY (2025LY00054_T1) | 24 of 24 ✔
+[64/19bfe3] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[86/f4a1b5] NFC… (Acinetobacter_baumannii) | 1 of 1 ✔
+[-        ] NFC…ER:RESOLVE_MERGED_CLUSTERS -
+[50/5c7956] NFC…PY_SINGLE (2025LY00035_T1) | 24 of 24 ✔
+[45/daada5] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[4d/cfcee2] NFC…etobacter_baumannii-00001) | 1 of 1, failed: 1 ✔
+[-        ] NFC…TER:BIGBACTER:CORE:RAPIDNJ -
+[15/0516f3] NFC…etobacter_baumannii_00001) | 1 of 1 ✔
+[65/c66bec] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[f1/18ebd8] NFC…er_baumannii_00001_snippy) | 1 of 1 ✔
+[8a/606d2a] NFC…er_baumannii_00001_snippy) | 2 of 2 ✔
+[a0/e503e5] NFC…etobacter_baumannii-00001) | 1 of 1 ✔
+[97/7c456d] NFC…r_baumannii_00001_poppunk) | 1 of 1 ✔
+[3c/71bbfa] NFC…etobacter_baumannii_00001) | 2 of 2 ✔
+[fd/fb1aa7] NFC…BINED_SUMMARY (1783565569) | 1 of 1 ✔
+[64/b488f7] NFC…er_baumannii-00001.snippy) | 1 of 1 ✔
+[e5/af65f6] NFC…M_DUMPSOFTWAREVERSIONS (1) | 1 of 1 ✔
+[df/968c3a] NFC…IGBACTER:BIGBACTER:MULTIQC | 1 of 1 ✔
+
+===========================
+BigBacter Database Summary:
+===========================
+Database Path: /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db
+PopPUNK Files: 110MB
+Reference Files: 0MB
+SNP Files: 0MB
+Assembly Files: 0MB
+Total: 0GB
+
+-[DOH-JDJ0303/bigbacter] Pipeline completed successfully, but with errored process(es) -
+
+------------------------------------------------------
+
+Next steps:
+1. Check your results
+2. Run the command below to push this run to your database
+
+> nextflow run DOH-JDJ0303/bigbacter-nf -r v1.0.0 -profile singularity --input /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/samplesheet.csv --db /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/db --outdir /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/results --max_cpus 16 -c /blue/bphl-georgia/tkiryutina/projects/260707-UGA-Training-CODE/bigbacter/bb_override.config --push true -resume
+
+------------------------------------------------------
+
+-[DOH-JDJ0303/bigbacter] Pipeline completed successfully, but with errored process(es) -
+[4d/cfcee2] NOTE: Missing output file(s) `*.fasta` expected by process `NFCORE_BIGBACTER:BIGBACTER:CORE:GUBBINS (Acinetobacter_baumannii-00001)` -- Error is ignored
+Completed at: 08-Jul-2026 23:02:20
+Duration    : 9m 34s
+CPU hours   : 2.3 (0.1% failed)
+Succeeded   : 116
+Ignored     : 1
+Failed      : 1
+
+

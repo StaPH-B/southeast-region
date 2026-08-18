@@ -1,0 +1,190 @@
+AMRFINDERPLUS_RUN:
+  amrfinderplus: 4.2.7
+  amrfinderplus_container: sha256:90e57a65bde22d3270ca13d43e59470aa2aa544b0b377fad7d8b2d1032e9741f
+  amrfinderplus_db_version: 2026-03-24.1
+ASSET_CHECK:
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+BBDUK:
+  bbmap: '39.01'
+  bbmap_container: sha256:161b0e1e198110b7edff8084ae9854d84eb32789d0fd62c7ced302078911c9d7
+BBMAP_REFORMAT:
+  bbmap: '39.01'
+  bbmap_container: sha256:161b0e1e198110b7edff8084ae9854d84eb32789d0fd62c7ced302078911c9d7
+CALCULATE_ASSEMBLY_RATIO:
+  NCBI_Assembly_Stats_DB: NCBI_Assembly_stats_20260508.txt
+  calculate_assembly_ratio.py: '2.0'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+CHECK_MLST:
+  fix_MLST2.py: 4.0.0
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+CORRUPTION_CHECK:
+  fairy_proc.py: 2.0.1
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+CREATE_SUMMARY_LINE:
+  Phoenix_summary_line.py: 2.0.1
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+CUSTOM_DUMPSOFTWAREVERSIONS:
+  python: 3.11.0
+  yaml: '6.0'
+DETERMINE_TAXA_ID:
+  NCBI_Taxonomy_Names_Reference_File: names_20260430.dmp.gz
+  NCBI_Taxonomy_Nodes_Reference_File: nodes_20260430.dmp.gz
+  determine_taxID.py: 2.0.1
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+DETERMINE_TOP_MASH_HITS:
+  Date_of_RefSeq_Pull: '2026-07-08'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  sort_and_prep_dist.py: '2.1'
+FASTANI:
+  fastani: '1.33'
+  fastani_container: sha256:d2c1bf7f1792c7d371904e8744f1a974535f0814d29212b254411e78c1436f59
+FASTP_SINGLES:
+  create_empty_fastp_json.sh: '2.0'
+  fastp: 0.23.4
+  fastp_container: sha256:98bb2bb94bbce4104f7fbbdba72c33c827f5add7cf08cc59fd365c6d82ee4014
+FASTP_TRIMD:
+  fastp: 0.23.4
+  fastp_container: sha256:98bb2bb94bbce4104f7fbbdba72c33c827f5add7cf08cc59fd365c6d82ee4014
+FASTQCTRIMD:
+  fastqc: 0.12.1
+  fastqc_container: sha256:f5d8f72753269e0cee071fe198c89a59a1f8071445739b3398f7818f7cb039ae
+FORMAT_ANI:
+  ANI_best_hit_formatter.py: '2.0'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+GAMMA_AR:
+  Database: ResGANNCBI_20260430_srst2.fasta
+  gamma: '2.2'
+  gamma_container: sha256:60d8ac58e016349a856fb7b443dd422ba69bae3f40e0dad83460d25ecf71101e
+GAMMA_HV:
+  Database: HyperVirulence_20260507.fasta
+  gamma: '2.2'
+  gamma_container: sha256:60d8ac58e016349a856fb7b443dd422ba69bae3f40e0dad83460d25ecf71101e
+GAMMA_PF:
+  Database: PF-Replicons_20260430.fasta
+  gamma: '2.2'
+  gamma_container: sha256:60d8ac58e016349a856fb7b443dd422ba69bae3f40e0dad83460d25ecf71101e
+GATHER_SUMMARY_LINES:
+  Create_phoenix_summary_tsv.py: 2.3.0
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+GENERATE_PIPELINE_STATS:
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  pipeline_stats_writer.py: '2.0'
+GET_RAW_STATS:
+  FastP_QC.py: 2.0.0
+  fairy.py: 2.0.0
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+  q30.py: 2.0.0
+GET_TAXA_FOR_AMRFINDER:
+  get_taxa_for_amrfinder.py: 2.1.0
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+GET_TRIMD_STATS:
+  FastP_QC.py: 2.0.0
+  fairy.py: 2.0.0
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+GRIPHIN:
+  GRiPHin.py: 2.1.0
+  bldb_creation_date: '20251205'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  python: 3.12.3
+KRAKEN2_BH_TRIMD:
+  kraken2_best_hit.py: '2.0'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+KRAKEN2_BH_WTASMBLD:
+  kraken2_best_hit.py: '2.0'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+KRAKEN2_TRIMD:
+  kraken2: 2.1.3
+  kraken2_container: sha256:53aee35987059ae177301e6bdeceb1524a4bcf7b0eb0ef0842d8578b6bf1a5ee
+  kraken2db: k2_standard_08_GB_20260226.tar.gz
+KRAKEN2_WTASMBLD:
+  kraken2: 2.1.3
+  kraken2_container: sha256:53aee35987059ae177301e6bdeceb1524a4bcf7b0eb0ef0842d8578b6bf1a5ee
+  kraken2db: k2_standard_08_GB_20260226.tar.gz
+KRAKENTOOLS_MAKEKREPORT:
+  krakentools: '1.2'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+KREPORT2KRONA_TRIMD:
+  krakentools: '1.2'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+KREPORT2KRONA_WTASMBLD:
+  krakentools: '1.2'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+KREPORT2MPA_TRIMD:
+  krakentools: '1.2'
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+KRONA_KTIMPORTTEXT_TRIMD:
+  krona: 2.8.1
+  krona_container: sha256:8917b9840b369d102ee759a037cc8577295875952013aaa18897c00569c9fe47
+KRONA_KTIMPORTTEXT_WTASMBLD:
+  krona: 2.8.1
+  krona_container: sha256:8917b9840b369d102ee759a037cc8577295875952013aaa18897c00569c9fe47
+MASH_DIST:
+  Mash_Sketch: REFSEQ_20260521_Bacteria_complete.msh
+  mash: '2.3'
+  mash_container: sha256:d55d03b75eb3a88bf0e93253487580f828f6a25b324a7c28fb8e4eaca0d5eebf
+MLST:
+  mlst: 2.25.0
+  mlst_container: sha256:0815f21d820758d1ca2e20435017a083c1da46b8fb13727abcfe2d9ff961ba8f
+  mlst_db: '20260603'
+PROKKA:
+  prokka: 1.14.5
+  prokka_container: sha256:4ef8e13b87f6ba1bc79f599970ec25c60a80913ab0bc15c90171c9743e86994f
+QUAST:
+  quast: 5.3.0
+  quast_container: sha256:850dd9821c0c92c8bb1b258658a64b39682e8f3d61dd1fa6f40e3ef906f1edb8
+RENAME_FASTA_HEADERS:
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+  rename_fasta_headers.py: 2.0.0
+SAMPLESHEET_CHECK:
+  check_samplesheet.py: 1.0.0
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  python: 3.12.3
+SCAFFOLD_COUNT_CHECK:
+  Phoenix_summary_line.py: 2.0.1
+  determine_taxID.py: 2.0.1
+  edit_line_summary.py: 2.0.0
+  phoenix_base_container: sha256:ba44273acc600b36348b96e76f71fbbdb9557bb12ce9b8b37787c3ef2b7d622f
+  phoenix_base_container_tag: base_v2.2.0
+  pipeline_stats_writer.py: '2.0'
+  python: 3.12.3
+SPADES:
+  afterSpades.py: '2.0'
+  spades: 4.2.0
+  spades_container: sha256:b186acb3b52675036322fb7559539f1734b29498ea7808acef69870ca3828429
+Workflow:
+  Mode: PHOENIX
+  Nextflow: 25.10.4
+  cdcgov/phoenix: 2.3.2
