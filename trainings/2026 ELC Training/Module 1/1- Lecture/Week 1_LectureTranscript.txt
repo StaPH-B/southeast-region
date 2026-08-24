@@ -1,0 +1,1974 @@
+
+00:01:42.000 --> 00:01:46.000
+My name is Justin Ball. Here's my email address.
+
+00:01:46.000 --> 00:01:48.000
+Feel free to send me emails.
+
+00:01:48.000 --> 00:01:51.000
+Uh, if you'd like to have additional information,
+
+00:01:51.000 --> 00:01:53.000
+Or if there's.
+
+00:01:53.000 --> 00:01:55.000
+Uh…
+
+00:01:55.000 --> 00:01:59.000
+variety of questions related to this topic.
+
+00:01:59.000 --> 00:02:03.000
+Uh, I'm very excited to engage with everybody from
+
+00:02:03.000 --> 00:02:09.000
+the Southeast Public Health Labs. A number of you I've managed to interact with.
+
+00:02:09.000 --> 00:02:13.000
+Regularly, I work very closely with the Georgia Department of Public Health,
+
+00:02:13.000 --> 00:02:18.000
+Uh, and then through this program, we had a kickoff meeting just a couple weeks ago.
+
+00:02:18.000 --> 00:02:20.000
+To sort of, uh…
+
+00:02:20.000 --> 00:02:23.000
+Just increase that communication, the level of communication,
+
+00:02:23.000 --> 00:02:26.000
+and discuss what a.
+
+00:02:26.000 --> 00:02:34.000
+Just the variety of different issues that are coming up and trying to develop this interdisciplinary field.
+
+00:02:34.000 --> 00:02:38.000
+So very quickly, just about me.
+
+00:02:38.000 --> 00:02:42.000
+Uh, I am a professor here at the University of Georgia.
+
+00:02:42.000 --> 00:02:47.000
+I have a triple appointment. I'm split between
+
+00:02:47.000 --> 00:02:51.000
+The Department of Infectious Diseases and the College of Veterinary Medicine.
+
+00:02:51.000 --> 00:02:55.000
+The Department of Epidemiology and Biostatistics in the College of Public Health.
+
+00:02:55.000 --> 00:02:57.000
+and the Institute of Bioinformatics.
+
+00:02:57.000 --> 00:03:02.000
+And like the field of molecular epidemiology, I do draw students.
+
+00:03:02.000 --> 00:03:06.000
+and personnel and training from all of these different areas.
+
+00:03:06.000 --> 00:03:15.000
+I lead the Applied Molecular Epidemiology Research Group, and our focus is on RNA viruses, in particular influenza, coronaviruses.
+
+00:03:15.000 --> 00:03:21.000
+Dengue, HIV, and we deal with both endemic and emerging pathogens.
+
+00:03:21.000 --> 00:03:25.000
+I use genomic data to learn about
+
+00:03:25.000 --> 00:03:29.000
+uh, different evolutionary processes that are hard to observe.
+
+00:03:29.000 --> 00:03:35.000
+So, for viruses, that might be individual replication, or sorry, replication within an individual.
+
+00:03:35.000 --> 00:03:39.000
+And what variants are transmitted to another individual.
+
+00:03:39.000 --> 00:03:45.000
+at that population scale, we can't really observe those. So we use genetic data.
+
+00:03:45.000 --> 00:03:47.000
+to try and make some sort of inferences.
+
+00:03:47.000 --> 00:03:52.000
+on the processes that determine that genetic variation that we observe.
+
+00:03:52.000 --> 00:03:56.000
+At that population. So, so that's, that's what I do.
+
+00:03:56.000 --> 00:04:03.000
+Uh, I completed my PhD in.
+
+00:04:03.000 --> 00:04:06.000
+I completed my PhD in 2006.
+
+00:04:06.000 --> 00:04:10.000
+From the University of Hong Kong, where I joined.
+
+00:04:10.000 --> 00:04:16.000
+The state key lab for emerging infectious diseases. That was a high-path avian influenza reference lab.
+
+00:04:16.000 --> 00:04:19.000
+Uh, and I've been working on this.
+
+00:04:19.000 --> 00:04:21.000
+In this field since 2006.
+
+00:04:21.000 --> 00:04:24.000
+My.
+
+00:04:24.000 --> 00:04:28.000
+Training before I joined that lab and before I focused on viruses,
+
+00:04:28.000 --> 00:04:31.000
+was on evolutionary systematics, so.
+
+00:04:31.000 --> 00:04:33.000
+I would use genetic data to try and
+
+00:04:33.000 --> 00:04:37.000
+categorize different viruses and different organisms.
+
+00:04:37.000 --> 00:04:42.000
+put them into proper boxes that were comprised of.
+
+00:04:42.000 --> 00:04:46.000
+groups that were related to each other, and that shared different features.
+
+00:04:46.000 --> 00:04:51.000
+Um, I took those tools that I developed during my PhD and started applying them.
+
+00:04:51.000 --> 00:04:54.000
+to RNA viruses from 2006.
+
+00:04:54.000 --> 00:04:59.000
+Uh, and then since then, the field itself has changed dramatically.
+
+00:04:59.000 --> 00:05:04.000
+Uh, so I'm very excited to share what I've learned with you.
+
+00:05:04.000 --> 00:05:10.000
+Uh, but I'm always more excited to explore.
+
+00:05:10.000 --> 00:05:14.000
+where this field is going, and I think you guys are at the forefront.
+
+00:05:14.000 --> 00:05:21.000
+of how this work is going to be applied in public health. So it's exciting, it's scary at the same time.
+
+00:05:21.000 --> 00:05:28.000
+So we have this collective challenge, right? How do we better use genomic data to inform public health?
+
+00:05:28.000 --> 00:05:32.000
+Well, this is not just a single domain challenge.
+
+00:05:32.000 --> 00:05:36.000
+Right? We need to be able to…
+
+00:05:36.000 --> 00:05:39.000
+improve our ability to crosstalk between
+
+00:05:39.000 --> 00:05:41.000
+The laboratory technicians.
+
+00:05:41.000 --> 00:05:44.000
+Our computational teams and bioinformatics.
+
+00:05:44.000 --> 00:05:48.000
+Those that are developing computational infrastructure and data security.
+
+00:05:48.000 --> 00:05:53.000
+There is no really integrated data management available,
+
+00:05:53.000 --> 00:05:55.000
+And the method development and validation
+
+00:05:55.000 --> 00:05:58.000
+is occurring at breakneck speed.
+
+00:05:58.000 --> 00:06:00.000
+So we are seeing.
+
+00:06:00.000 --> 00:06:06.000
+New methods and new approaches being developed daily, and yet we don't know how applicable they are.
+
+00:06:06.000 --> 00:06:09.000
+Uh, to that public health setting yet.
+
+00:06:09.000 --> 00:06:12.000
+So we need that validation.
+
+00:06:12.000 --> 00:06:18.000
+So the question that I have for you guys, just to get us started.
+
+00:06:18.000 --> 00:06:21.000
+is how prepared are we?
+
+00:06:21.000 --> 00:06:23.000
+To use pathogen genomics.
+
+00:06:23.000 --> 00:06:28.000
+in public health. I just want to get an idea about.
+
+00:06:28.000 --> 00:06:34.000
+What is your expertise? How are you approaching these challenges?
+
+00:06:34.000 --> 00:06:43.000
+And what previous training have you had? And then I think we're gonna have… I'm just gonna summarize the training landscape in the U.S.
+
+00:06:43.000 --> 00:06:45.000
+At the end of this section as well.
+
+00:06:45.000 --> 00:06:47.000
+So Ludi.
+
+00:06:47.000 --> 00:06:51.000
+If you'd like to bring up some survey questions, please, we'll just take.
+
+00:06:51.000 --> 00:06:57.000
+Uh, maybe, like, one to two minutes to answer that. Hopefully, we don't need that, you could just.
+
+00:06:57.000 --> 00:07:01.000
+Say, what is your experience? Are you a.
+
+00:07:01.000 --> 00:07:04.000
+laboratorian or microbiology chain,
+
+00:07:04.000 --> 00:07:09.000
+Uh, have you done epidemiology, surveillance, outbreak response? Are you a bioinformatician?
+
+00:07:09.000 --> 00:07:15.000
+Do you actually come from leadership and policy implementation, or are you a public health trainee?
+
+00:07:15.000 --> 00:07:34.000
+Uh, and then you could have… you could actually cross more than one domain, which I think is also pretty… pretty common.
+
+00:07:34.000 --> 00:07:37.000
+I'll let you know when we're at about 100%.
+
+00:07:37.000 --> 00:07:39.000
+Alright, as close to it as possible.
+
+00:07:39.000 --> 00:07:45.000
+Okay. I would… since it very rough, I'd be quite happy if we get to 90% and.
+
+00:07:45.000 --> 00:07:46.000
+close off. Okay?
+
+00:07:46.000 --> 00:07:53.000
+Okay.
+
+00:07:53.000 --> 00:07:55.000
+All right, we're at 90.
+
+00:07:55.000 --> 00:08:01.000
+Okay. And then just to move on to that next question.
+
+00:08:01.000 --> 00:08:02.000
+Oh, wow, okay, let's just discuss these quickly as well, rather than going through at the end.
+
+00:08:02.000 --> 00:08:05.000
+Sorry, did you?
+
+00:08:05.000 --> 00:08:10.000
+So we see 17% are from the lab.
+
+00:08:10.000 --> 00:08:14.000
+50% are epidemiologists,
+
+00:08:14.000 --> 00:08:19.000
+And then we have 10% bioinformaticians. We do have some people in leadership here.
+
+00:08:19.000 --> 00:08:24.000
+And then 5% are trainees. 15% across multiple roles.
+
+00:08:24.000 --> 00:08:30.000
+Uh, and I think I imagine that crossing multiple roles is an area that will probably start increasing.
+
+00:08:30.000 --> 00:08:33.000
+As this field grows as well.
+
+00:08:33.000 --> 00:08:40.000
+Uh, fantastic. Uh, well, everybody, welcome. Now you have a good idea about your peers that are here as well.
+
+00:08:40.000 --> 00:08:42.000
+So…
+
+00:08:42.000 --> 00:08:44.000
+This is Amanda Hartley. I've received a door hanger on my
+
+00:08:44.000 --> 00:08:47.000
+And then the, the next question is,
+
+00:08:47.000 --> 00:08:49.000
+How often do you use
+
+00:08:49.000 --> 00:08:54.000
+genomic evidence, uh, things like, never… you told that you need to.
+
+00:08:54.000 --> 00:08:57.000
+uses, but you haven't actually used it in the past.
+
+00:08:57.000 --> 00:09:05.000
+Uh, you receive genomic results, but they come in and out the door. Do you analyze the data?
+
+00:09:05.000 --> 00:09:08.000
+Or do you interpret results as part of a team?
+
+00:09:08.000 --> 00:09:12.000
+Uh, or do you routinely integrate?
+
+00:09:12.000 --> 00:09:16.000
+The different types of data, and then maybe you generate
+
+00:09:16.000 --> 00:09:25.000
+genetic data, or maybe you take that genetic data and produce phylogenetic trees or other outputs.
+
+00:09:25.000 --> 00:09:27.000
+And we'll let that get to about…
+
+00:09:27.000 --> 00:09:30.000
+80 and 90% as well, and uh.
+
+00:09:30.000 --> 00:09:48.000
+And keep moving on.
+
+00:09:48.000 --> 00:09:51.000
+Great.
+
+00:09:51.000 --> 00:09:57.000
+So, we have a lot of people that know that this is coming down the pipeline, and you're gonna have to do it, but…
+
+00:09:57.000 --> 00:10:01.000
+I almost never had to deal with genetic data.
+
+00:10:01.000 --> 00:10:06.000
+Uh, okay? And then, the next one is interpreting results with support from others.
+
+00:10:06.000 --> 00:10:08.000
+Uh, receiving.
+
+00:10:08.000 --> 00:10:13.000
+sorry, routinely integrating genomic and epidemiological data.
+
+00:10:13.000 --> 00:10:17.000
+Uh, and then receiving genomic results, and then generating genomic.
+
+00:10:17.000 --> 00:10:19.000
+Uh, data.
+
+00:10:19.000 --> 00:10:21.000
+Great, I think this, this…
+
+00:10:21.000 --> 00:10:24.000
+course is hopefully going to fill that role.
+
+00:10:24.000 --> 00:10:30.000
+of, uh, when you do receive genetic data or a set of results,
+
+00:10:30.000 --> 00:10:33.000
+You'll have a pretty good idea of actually what it means.
+
+00:10:33.000 --> 00:10:36.000
+Right? And then the next question.
+
+00:10:36.000 --> 00:10:41.000
+Is where do you feel confident in this or where are you least confident? Are you least confident?
+
+00:10:41.000 --> 00:10:44.000
+And saying, interpreting phylogenetic trees.
+
+00:10:44.000 --> 00:10:48.000
+Uh, can you distinguish genetic similarity from transmission?
+
+00:10:48.000 --> 00:10:50.000
+Um, you know, you have.
+
+00:10:50.000 --> 00:10:58.000
+To any antimicrobial resistant genes that are 99.9% identical. Does that mean they're.
+
+00:10:58.000 --> 00:11:01.000
+Direct transmission cases, and how would you interpret that?
+
+00:11:01.000 --> 00:11:06.000
+Uh, do you recognize sampling bias in that, uh, able to assess whether.
+
+00:11:06.000 --> 00:11:08.000
+your, um…
+
+00:11:08.000 --> 00:11:11.000
+results are potentially wrong or misleading.
+
+00:11:11.000 --> 00:11:14.000
+Uh, and then.
+
+00:11:14.000 --> 00:11:16.000
+Do you.
+
+00:11:16.000 --> 00:11:21.000
+Are you confident in combining genomic data, case data?
+
+00:11:21.000 --> 00:11:23.000
+And exposure data.
+
+00:11:23.000 --> 00:11:26.000
+The scale is from 1 to 5.
+
+00:11:26.000 --> 00:11:35.000
+With 5 being the highest confidence.
+
+00:11:35.000 --> 00:11:39.000
+And then we have… sorry, we do have a fifth question there, the translating evidence.
+
+00:11:39.000 --> 00:11:50.000
+into public health, into making recommendations.
+
+00:11:50.000 --> 00:11:54.000
+Since there are 5 questions on this one, uh, we're gonna need just a little bit more time, so…
+
+00:11:54.000 --> 00:12:24.000
+Sure. Sure.
+
+00:12:25.000 --> 00:12:29.000
+All right, just made it past 80.
+
+00:12:29.000 --> 00:12:36.000
+Okay.
+
+00:12:36.000 --> 00:12:41.000
+Okay, so we have, again, these people with some.
+
+00:12:41.000 --> 00:12:44.000
+Experience.
+
+00:12:44.000 --> 00:12:49.000
+So you've probably done, you've probably had to analyze phylogenic trees.
+
+00:12:49.000 --> 00:12:53.000
+Uh, and interpreting them.
+
+00:12:53.000 --> 00:12:56.000
+So there's some space to grow there.
+
+00:12:56.000 --> 00:12:58.000
+.
+
+00:12:58.000 --> 00:13:01.000
+distinguishing similarity from transmission.
+
+00:13:01.000 --> 00:13:08.000
+We have more people that have little experience there. I think that is, um, a huge challenge.
+
+00:13:08.000 --> 00:13:10.000
+Uh, recognizing bias,
+
+00:13:10.000 --> 00:13:12.000
+So this is something that
+
+00:13:12.000 --> 00:13:15.000
+is definitely not discussed enough, and is probably not.
+
+00:13:15.000 --> 00:13:20.000
+Obvious in case studies and how people try to address bias before they're.
+
+00:13:20.000 --> 00:13:25.000
+Their work, but yeah, that that's something another topic that we're gonna cover.
+
+00:13:25.000 --> 00:13:28.000
+Uh, and then combining it with, with.
+
+00:13:28.000 --> 00:13:30.000
+case data and exposure data,
+
+00:13:30.000 --> 00:13:35.000
+I think this is something where we're all moving towards, that we're gonna have to find a way to do this.
+
+00:13:35.000 --> 00:13:40.000
+The problem is that none of the surveillance has actually been designed to combine them.
+
+00:13:40.000 --> 00:13:43.000
+Uh, so we've, we've got some space there that we're gonna have to tackle.
+
+00:13:43.000 --> 00:13:48.000
+Uh, and then translation into public health.
+
+00:13:48.000 --> 00:13:50.000
+I'm hoping that we could shift that entire
+
+00:13:50.000 --> 00:13:56.000
+distribution towards that 4 and 5 by the end of this class, but that gives you an idea about
+
+00:13:56.000 --> 00:14:00.000
+the knowledge landscape as to where we're going to go.
+
+00:14:00.000 --> 00:14:06.000
+Okay, and then next question is, how are you trained for this?
+
+00:14:06.000 --> 00:14:12.000
+So have you actually managed to have a formal university course, concentration, or certificate?
+
+00:14:12.000 --> 00:14:18.000
+In molecular epi, have you taken short courses, workshops, professional training such as this?
+
+00:14:18.000 --> 00:14:24.000
+Uh, has it mostly been on the job training that somebody said here you have to do this, here's what we've done in the past.
+
+00:14:24.000 --> 00:14:26.000
+and try and figure things out.
+
+00:14:26.000 --> 00:14:34.000
+Uh, have you been given resources for self-directed learning, or have you not taken any sort of structured training yet?
+
+00:14:34.000 --> 00:14:39.000
+You can select multiple options on this question.
+
+00:14:39.000 --> 00:14:43.000
+By the way.
+
+00:14:43.000 --> 00:15:13.000
+Great, thank you, Ludi.
+
+00:15:28.000 --> 00:15:32.000
+We've been stuck at about 77, so I'm going to just go ahead and end it.
+
+00:15:32.000 --> 00:15:33.000
+78.
+
+00:15:33.000 --> 00:15:41.000
+Okay. Great.
+
+00:15:41.000 --> 00:15:47.000
+So most people have learned this on the job and in practice. And I think that is.
+
+00:15:47.000 --> 00:15:51.000
+Coming for the vast majority of people working in, in molecular epi.
+
+00:15:51.000 --> 00:15:58.000
+Some certificates, I imagine most of those have come from from CDC initiatives.
+
+00:15:58.000 --> 00:16:02.000
+And then.
+
+00:16:02.000 --> 00:16:05.000
+Of course, professional training like this,
+
+00:16:05.000 --> 00:16:11.000
+Uh, but a good amount with no structured training yet. Uh, all right, that's, that's great.
+
+00:16:11.000 --> 00:16:15.000
+Well, just to get a good idea, but where everybody is.
+
+00:16:15.000 --> 00:16:18.000
+So.
+
+00:16:18.000 --> 00:16:22.000
+In the U.S.
+
+00:16:22.000 --> 00:16:25.000
+The formal training landscape itself.
+
+00:16:25.000 --> 00:16:27.000
+is not entirely clear.
+
+00:16:27.000 --> 00:16:30.000
+We are talking about pathogen genomics.
+
+00:16:30.000 --> 00:16:32.000
+And pathogen Genomics Molecular epi.
+
+00:16:32.000 --> 00:16:37.000
+But in the US, this field has emerged through.
+
+00:16:37.000 --> 00:16:41.000
+Environmental exposure and cancer risk.
+
+00:16:41.000 --> 00:16:47.000
+Maybe a searching and scanning human genomes.
+
+00:16:47.000 --> 00:16:53.000
+For cardiovascular disease and trying to identify a specific.
+
+00:16:53.000 --> 00:16:56.000
+Genetic variant that might increase risk.
+
+00:16:56.000 --> 00:17:01.000
+Uh, or it's emerged through microbiology investigations of.
+
+00:17:01.000 --> 00:17:04.000
+Hospital-acquired infections,
+
+00:17:04.000 --> 00:17:10.000
+Uh, or clinical surveillance. Uh, so it's come from this, this lab epidemiology side.
+
+00:17:10.000 --> 00:17:14.000
+Pathogen evolution, genomic surveillance, and outbreak decision-making,
+
+00:17:14.000 --> 00:17:19.000
+have not really been combined into any sort of formal credentialed course.
+
+00:17:19.000 --> 00:17:23.000
+Uh, and even in these classes where formal courses are available.
+
+00:17:23.000 --> 00:17:26.000
+And formal certification is available.
+
+00:17:26.000 --> 00:17:28.000
+It's often not.
+
+00:17:28.000 --> 00:17:31.000
+Um… comprehensive.
+
+00:17:31.000 --> 00:17:35.000
+So, Michigan School of Public Health does have their MPH concentration.
+
+00:17:35.000 --> 00:17:40.000
+You can have a library and a laboratory and hospital.
+
+00:17:40.000 --> 00:17:42.000
+focused, uh, orientation.
+
+00:17:42.000 --> 00:17:47.000
+And this is relevant, but it doesn't actually bring things forward into a.
+
+00:17:47.000 --> 00:17:50.000
+Molecular epidemiology framework.
+
+00:17:50.000 --> 00:17:57.000
+Uh, Emory, uh, does have a graduate certificate in molecular epidemiology.
+
+00:17:57.000 --> 00:18:00.000
+But this is focused on host genetics and biomarkers.
+
+00:18:00.000 --> 00:18:03.000
+Uh, and then.
+
+00:18:03.000 --> 00:18:06.000
+Columbia Mailman School of Public Health.
+
+00:18:06.000 --> 00:18:11.000
+has their MPH certificate, which focuses on exposure and disease mechanisms.
+
+00:18:11.000 --> 00:18:15.000
+They might touch on pathogen genomics, but it is not really a.
+
+00:18:15.000 --> 00:18:19.000
+a major element there. The focus really is on host-oriented.
+
+00:18:19.000 --> 00:18:24.000
+Uh, if you were at the University of Georgia in the College of Public Health, you could do a PhD with me.
+
+00:18:24.000 --> 00:18:29.000
+Uh, and that is a part of the research track. There is also the data analysis
+
+00:18:29.000 --> 00:18:34.000
+and modeling course, which also touches on this quite a bit.
+
+00:18:34.000 --> 00:18:39.000
+Uh, you can end up with very strong, specific training in a certain domain,
+
+00:18:39.000 --> 00:18:47.000
+It's often not comprehensive, but it is, and maybe under one specific case setting for your PhD.
+
+00:18:47.000 --> 00:18:50.000
+Work, and there are a number of mentors that that can do this.
+
+00:18:50.000 --> 00:18:56.000
+Uh, UAB, uh, they have a PhD concentration area, but again, it's individualized.
+
+00:18:56.000 --> 00:18:59.000
+Uh, and then Yale, which probably has the.
+
+00:18:59.000 --> 00:19:05.000
+most comprehensive program in the U.S. in microbial diseases. They do have
+
+00:19:05.000 --> 00:19:07.000
+And infectious disease epi.
+
+00:19:07.000 --> 00:19:12.000
+And it is a strong component of that program, but it's not actually a formal credential
+
+00:19:12.000 --> 00:19:17.000
+Piece of work. So, we're trying to address something that is.
+
+00:19:17.000 --> 00:19:23.000
+A major gap in the education opportunities that are available for
+
+00:19:23.000 --> 00:19:28.000
+For PhD students, MPH students, master's students, and.
+
+00:19:28.000 --> 00:19:31.000
+Workforce development.
+
+00:19:31.000 --> 00:19:37.000
+Okay, so the, this gap really is centered around pathogen genomics.
+
+00:19:37.000 --> 00:19:39.000
+Uh, I am part of the.
+
+00:19:39.000 --> 00:19:42.000
+Georgia Pathogenomic Centers of Excellence.
+
+00:19:42.000 --> 00:19:47.000
+And through these centers, we're trying to address this.
+
+00:19:47.000 --> 00:19:50.000
+Uh, one thing I'd like to point out to you, and I've included this in the slides,
+
+00:19:50.000 --> 00:19:55.000
+Is that the Harvard, Massachusetts Pathogen Genomic Centers of Excellence.
+
+00:19:55.000 --> 00:19:58.000
+It has been developing a free.
+
+00:19:58.000 --> 00:20:01.000
+Online public health practice course.
+
+00:20:01.000 --> 00:20:05.000
+Uh, and that is.
+
+00:20:05.000 --> 00:20:07.000
+this course will not…
+
+00:20:07.000 --> 00:20:09.000
+duplicate what's presented there.
+
+00:20:09.000 --> 00:20:13.000
+So, definitely, if this is an area that you're going to be doing more work in,
+
+00:20:13.000 --> 00:20:18.000
+Check it out. Alright, there's a link here. It is… it is excellent.
+
+00:20:18.000 --> 00:20:24.000
+Uh, but for many of these other institutions, there really isn't a formal one.
+
+00:20:24.000 --> 00:20:26.000
+The closest one is probably Pittsburgh.
+
+00:20:26.000 --> 00:20:28.000
+But this is a Fogarty International Center.
+
+00:20:28.000 --> 00:20:33.000
+program that's built around global health and.
+
+00:20:33.000 --> 00:20:36.000
+Specifically funded participants, so it's it's not.
+
+00:20:36.000 --> 00:20:40.000
+a fully comprehensive partnership that between.
+
+00:20:40.000 --> 00:20:45.000
+practice and public health training, or providing broad public health training.
+
+00:20:45.000 --> 00:20:50.000
+Uh, for people that aren't part of this, this actual closed network.
+
+00:20:50.000 --> 00:20:57.000
+Okay, so this, this space, so there is a huge gap here also.
+
+00:20:57.000 --> 00:21:01.000
+with integration, right? So integration, especially leading to action.
+
+00:21:01.000 --> 00:21:06.000
+And we are trying to cover some of that in this class. So we are being very ambitious.
+
+00:21:06.000 --> 00:21:09.000
+We've broken this down into five separate
+
+00:21:09.000 --> 00:21:17.000
+modules, uh, and we're gonna talk about a lot of different things, um, how we might link phylogenetic inference.
+
+00:21:17.000 --> 00:21:22.000
+to a public health recommendation, and we want to be able to get to cover all these topics.
+
+00:21:22.000 --> 00:21:29.000
+But to actually get to the end where you're given a result, and then you can make a recommendation,
+
+00:21:29.000 --> 00:21:38.000
+To your policymakers or leadership within your institution as to how you can best respond and control a disease outbreak.
+
+00:21:38.000 --> 00:21:43.000
+So, this program is supposed to train at that interface. How do we judge genomic evidence?
+
+00:21:43.000 --> 00:21:48.000
+and use it responsibly in surveillance and outbreak response.
+
+00:21:48.000 --> 00:21:52.000
+This is not a small challenge. This is a big challenge,
+
+00:21:52.000 --> 00:21:56.000
+and we're trying to do it in a fairly short course.
+
+00:21:56.000 --> 00:21:58.000
+Uh, so we're really excited that all of you are here.
+
+00:21:58.000 --> 00:22:02.000
+Uh, but it… we also acknowledge that.
+
+00:22:02.000 --> 00:22:05.000
+there's going to be a lot of stuff, uh, that is.
+
+00:22:05.000 --> 00:22:09.000
+probably going to be glossed over here. We are trying to focus on that.
+
+00:22:09.000 --> 00:22:15.000
+Uh, inference and inference pathway to recommendation.
+
+00:22:15.000 --> 00:22:19.000
+But we will point to other resources throughout this entire course.
+
+00:22:19.000 --> 00:22:23.000
+It has been organized into a lecture.
+
+00:22:23.000 --> 00:22:26.000
+A case study where we talk about
+
+00:22:26.000 --> 00:22:31.000
+An important research paper that has brought in new concepts that are being adopted by public health.
+
+00:22:31.000 --> 00:22:38.000
+Uh, and then a practical element where, uh, you'll be able to experience some of the the.
+
+00:22:38.000 --> 00:22:44.000
+Um, current and emerging platforms for addressing some of the challenges like data bias,
+
+00:22:44.000 --> 00:22:49.000
+or inference levels for antimicrobial resistance.
+
+00:22:49.000 --> 00:22:55.000
+Uh, and then the final step of this is that we are going to try and have a simulation where people are given.
+
+00:22:55.000 --> 00:22:59.000
+Data sets, and you're producing those public health recommendations.
+
+00:22:59.000 --> 00:23:02.000
+Um, and we feel that this.
+
+00:23:02.000 --> 00:23:09.000
+Framing falls within the gap that doesn't exist anywhere else. So we are very excited to deliver this to you and we hope.
+
+00:23:09.000 --> 00:23:13.000
+You guys are excited to to participate as well. Alright.
+
+00:23:13.000 --> 00:23:16.000
+Now I'm…
+
+00:23:16.000 --> 00:23:24.000
+I took up a good amount of my time. We might not get through all of this, uh, all these slides are available, but I'll try and push ahead here.
+
+00:23:24.000 --> 00:23:32.000
+So let's start right from the beginning. What is epidemiology? It comes from the Greek word, the Greek root word for epi, meaning upon, demos.
+
+00:23:32.000 --> 00:23:39.000
+or demos, meaning people, and logos to study. So, epidemiology is the study of what is upon people.
+
+00:23:39.000 --> 00:23:42.000
+We try to address these 5 W's.
+
+00:23:42.000 --> 00:23:46.000
+Uh, what is the health issue of concern? Who is being impacted?
+
+00:23:46.000 --> 00:23:49.000
+Where is this happening? When is it happening?
+
+00:23:49.000 --> 00:23:56.000
+And why is it there, right? What are the causes, risk factors, or the modes of transmission?
+
+00:23:56.000 --> 00:24:01.000
+In molecular epidemiology, we are trying to answer those same questions.
+
+00:24:01.000 --> 00:24:03.000
+So, molecular epidemiology,
+
+00:24:03.000 --> 00:24:14.000
+is the branch of epidemiology and medical science that were developed by merging molecular biology into epidemiological studies, okay? We tried to bring these things together.
+
+00:24:14.000 --> 00:24:20.000
+It aims to identify the infectious agent, unravel its source.
+
+00:24:20.000 --> 00:24:23.000
+Identify reservoirs and trace circulation.
+
+00:24:23.000 --> 00:24:29.000
+patterns and determine the transmission pattern, all using genomic sequence data.
+
+00:24:29.000 --> 00:24:32.000
+And I emphasize the genomic sequence data here, because there are other
+
+00:24:32.000 --> 00:24:38.000
+elements of molecular epidemiology that we're not going to touch on, right? But we are just primarily focusing on.
+
+00:24:38.000 --> 00:24:42.000
+The interpretation of genomic sequence data analysis.
+
+00:24:42.000 --> 00:24:45.000
+The goal, ultimate goal for all of this.
+
+00:24:45.000 --> 00:24:50.000
+is to develop a real-time genomic epidemiology and infectious… of infectious disease system.
+
+00:24:50.000 --> 00:24:54.000
+So we can go directly from a clinical sample,
+
+00:24:54.000 --> 00:25:01.000
+to a gene sequence to interpretation of community spread and disrupt that spread and stop it.
+
+00:25:01.000 --> 00:25:07.000
+Right? So if that's what we're trying to do, we are trying to stop disease transmission using genomic data.
+
+00:25:07.000 --> 00:25:09.000
+And we are trying to protect populations.
+
+00:25:09.000 --> 00:25:15.000
+This is a hugely ambitious goal. And then trying to reduce the time between
+
+00:25:15.000 --> 00:25:20.000
+Each of these different elements is not a small challenge.
+
+00:25:20.000 --> 00:25:24.000
+One of the areas where I think we've done very well.
+
+00:25:24.000 --> 00:25:27.000
+Is at that spatial epidemiology scale.
+
+00:25:27.000 --> 00:25:31.000
+Tracing the viral spread between countries.
+
+00:25:31.000 --> 00:25:33.000
+And within countries.
+
+00:25:33.000 --> 00:25:39.000
+Uh, the emerging area is where we start moving into within locations, and maybe within cities.
+
+00:25:39.000 --> 00:25:41.000
+Uh, where.
+
+00:25:41.000 --> 00:25:46.000
+The benefit of combining epidemiological surveillance with
+
+00:25:46.000 --> 00:25:52.000
+This this network modeling and genomic data.
+
+00:25:52.000 --> 00:25:58.000
+I think we haven't fully realized that potential yet, but it's all built upon spatial epidemiology.
+
+00:25:58.000 --> 00:26:02.000
+Uh, and trying to move it across those scales.
+
+00:26:02.000 --> 00:26:10.000
+So, I am a… I focus on viruses. My examples are going to go on viruses, so I thought, let's start with this question.
+
+00:26:10.000 --> 00:26:13.000
+First one is what is a virus?
+
+00:26:13.000 --> 00:26:16.000
+This is the definition that I use.
+
+00:26:16.000 --> 00:26:20.000
+It's an infectious, obligate intercellular parasite.
+
+00:26:20.000 --> 00:26:23.000
+Comprising of genetic material surrounded by a protein coat,
+
+00:26:23.000 --> 00:26:26.000
+and a membrane, and or membrane.
+
+00:26:26.000 --> 00:26:30.000
+The important element, the most important element here,
+
+00:26:30.000 --> 00:26:37.000
+is that it is an obligate intracellular parasite. This thing needs to get into another host.
+
+00:26:37.000 --> 00:26:42.000
+So, to me, that means a virus is actually an organism with two phases.
+
+00:26:42.000 --> 00:26:46.000
+We have one phase, which is the virion, which is the viral particle,
+
+00:26:46.000 --> 00:26:49.000
+And the infected cell.
+
+00:26:49.000 --> 00:26:54.000
+When we put these things together, we have a living organism. We have an organism that can cover
+
+00:26:54.000 --> 00:26:58.000
+All aspects of biological life, it can reproduce, it can.
+
+00:26:58.000 --> 00:27:00.000
+metabolize, it can.
+
+00:27:00.000 --> 00:27:04.000
+carry out different biological functions.
+
+00:27:04.000 --> 00:27:09.000
+I consider this organism with two phases to be alive.
+
+00:27:09.000 --> 00:27:12.000
+But because it's an obligate parasite.
+
+00:27:12.000 --> 00:27:15.000
+The virus has to be able to.
+
+00:27:15.000 --> 00:27:20.000
+replicate inside of the cell, so it has to be able to get into the cell,
+
+00:27:20.000 --> 00:27:23.000
+And it has to be able to replicate within that cell.
+
+00:27:23.000 --> 00:27:30.000
+That system sets up constraints on what we're gonna see in the genetics of the virus.
+
+00:27:30.000 --> 00:27:34.000
+That genetic system has to be able to replicate in that host.
+
+00:27:34.000 --> 00:27:37.000
+So if that host doesn't recognize a certain set of C's and G's and T's.
+
+00:27:37.000 --> 00:27:39.000
+Uh, then that.
+
+00:27:39.000 --> 00:27:44.000
+virus is not going to be successful in that host. It can't replicate there. So, the genetic.
+
+00:27:44.000 --> 00:27:47.000
+Uh, landscape is very constrained by this.
+
+00:27:47.000 --> 00:27:51.000
+But it also means that when we study the genetics of the virus,
+
+00:27:51.000 --> 00:27:54.000
+We're learning about the host.
+
+00:27:54.000 --> 00:27:56.000
+The genetics of the virus might tell us.
+
+00:27:56.000 --> 00:28:03.000
+where that host has been. The virus isn't moving, but the individual is. How they moved across countries.
+
+00:28:03.000 --> 00:28:10.000
+The genetics could tell us whether the virus has jumped from one species to another.
+
+00:28:10.000 --> 00:28:14.000
+The genetics can tell us if it's transmitting within a community,
+
+00:28:14.000 --> 00:28:22.000
+What age structure is it transmitting among children? Is it transmitting amongst the elderly? Are there linkages between these different age groups?
+
+00:28:22.000 --> 00:28:26.000
+So, studying the genetics teaches us something about the host system.
+
+00:28:26.000 --> 00:28:29.000
+It can even tell us about host behavior.
+
+00:28:29.000 --> 00:28:35.000
+Where are individuals most likely to to congregate, to interact, and are there certain aspects?
+
+00:28:35.000 --> 00:28:39.000
+that can allow us to target interventions to maybe provide information where individuals are.
+
+00:28:39.000 --> 00:28:43.000
+Practicing risky behavior to protect themselves.
+
+00:28:43.000 --> 00:28:49.000
+Okay, but the emergence of molecular epidemiology is not a.
+
+00:28:49.000 --> 00:28:54.000
+purely linear path. So let's just talk a little bit about the history.
+
+00:28:54.000 --> 00:29:01.000
+First, infectious disease has played a major role in both our human evolution and how society has developed.
+
+00:29:01.000 --> 00:29:06.000
+Microbiology and clinical epidemiology and epidemiology have common origins.
+
+00:29:06.000 --> 00:29:14.000
+But separating them is actually very artificial and superficial, keeping epidemiology, infectious disease epidemiology, outside of evidence
+
+00:29:14.000 --> 00:29:16.000
+Is is.
+
+00:29:16.000 --> 00:29:20.000
+not always useful, and that's a recent development and is fairly superficial.
+
+00:29:20.000 --> 00:29:28.000
+Because the medical side often involves trying to estimate or to answer those five W's.
+
+00:29:28.000 --> 00:29:32.000
+Uh, so, in terms of impact through history, smallpox.
+
+00:29:32.000 --> 00:29:38.000
+being one of the biggest, uh, has, uh, affected societal development, has brought down.
+
+00:29:38.000 --> 00:29:43.000
+major, uh, uh, major.
+
+00:29:43.000 --> 00:29:45.000
+I guess it's a word.
+
+00:29:45.000 --> 00:29:49.000
+major societies, major groups in our past.
+
+00:29:49.000 --> 00:29:55.000
+Uh, and some of the earliest evidence we have is 430 BC, smallpox killing 30,000 people.
+
+00:29:55.000 --> 00:30:00.000
+In Athens, Greece. That is a loss of 20% of the population.
+
+00:30:00.000 --> 00:30:05.000
+We have smallpox brought over to the the Americas.
+
+00:30:05.000 --> 00:30:08.000
+Uh, from, from.
+
+00:30:08.000 --> 00:30:11.000
+different different of rivals.
+
+00:30:11.000 --> 00:30:15.000
+So, in Mexico, when Hernando Cortez arrived in 1590.
+
+00:30:15.000 --> 00:30:23.000
+smallpox epidemic killed between 5 and 8 million people, the native population over two years.
+
+00:30:23.000 --> 00:30:31.000
+Uh, we had the 1918 pandemic, killing between 30 and 50 million people worldwide.
+
+00:30:31.000 --> 00:30:34.000
+Uh, and 675,000 of them were Americans.
+
+00:30:34.000 --> 00:30:37.000
+Uh, we have polio. Polio peaked.
+
+00:30:37.000 --> 00:30:43.000
+Uh, in the, in the U.S. with 60,000 children being infected and 3,000 died.
+
+00:30:43.000 --> 00:30:45.000
+And they also carried on long-term.
+
+00:30:45.000 --> 00:30:52.000
+Uh, impacts such as paralysis and needing to have an iron lung.
+
+00:30:52.000 --> 00:30:57.000
+Uh, 1984, we have the AIDS pandemic emerging.
+
+00:30:57.000 --> 00:31:07.000
+Uh, but really, in 1984, it emerged before that, but 1984 is when we identified the virus itself and how to disrupt transmission.
+
+00:31:07.000 --> 00:31:12.000
+Uh, 2003, we have SARS-CoV being recognized.
+
+00:31:12.000 --> 00:31:18.000
+In in China, at this time I was doing my PhD in in Hong Kong.
+
+00:31:18.000 --> 00:31:24.000
+Uh, and that really allowed me to focus my future career and understanding.
+
+00:31:24.000 --> 00:31:27.000
+How a virus, an emerging virus can impact.
+
+00:31:27.000 --> 00:31:31.000
+so many different levels of society.
+
+00:31:31.000 --> 00:31:38.000
+2009, though, is really where I say the modern era of molecular epidemiology begins.
+
+00:31:38.000 --> 00:31:43.000
+So, infectious diseases, all trying to answer those same questions.
+
+00:31:43.000 --> 00:31:49.000
+Uh, but it's not until 2009 that we actually start using genetic sequencing at any sort of scale
+
+00:31:49.000 --> 00:31:54.000
+To try and understand the epidemiology of of pathogens.
+
+00:31:54.000 --> 00:31:58.000
+Uh, so 2009 is the swine origin influenza pandemic.
+
+00:31:58.000 --> 00:32:01.000
+Uh, and this is something that I was.
+
+00:32:01.000 --> 00:32:05.000
+uh, heavily involved in. This is the first outbreak that I really.
+
+00:32:05.000 --> 00:32:09.000
+uh, worked on and responded to. Uh, so.
+
+00:32:09.000 --> 00:32:12.000
+We have this, this.
+
+00:32:12.000 --> 00:32:18.000
+virus itself, so the timeline is that April 15th or April 17th.
+
+00:32:18.000 --> 00:32:24.000
+We have a novel swine origin pandemic is identified between two individuals that were unlinked.
+
+00:32:24.000 --> 00:32:30.000
+Uh, in the U.S. Very soon we see it in Mexico and Canada.
+
+00:32:30.000 --> 00:32:35.000
+And it's spread across the globe in weeks, okay, our response.
+
+00:32:35.000 --> 00:32:40.000
+was strong, but arguably slow because of how rapidly it did spread around the world.
+
+00:32:40.000 --> 00:32:44.000
+Uh, and then, uh, April 23rd and 24th.
+
+00:32:44.000 --> 00:32:48.000
+The network of scientists were made aware of this new threat,
+
+00:32:48.000 --> 00:32:51.000
+Uh, and I believe the 25th.
+
+00:32:51.000 --> 00:32:56.000
+is when we were given the sequence data. Okay, so we have about a period of about 10 days,
+
+00:32:56.000 --> 00:32:58.000
+Between the virus being identified,
+
+00:32:58.000 --> 00:33:04.000
+And scientists having that genome sequence data available to them.
+
+00:33:04.000 --> 00:33:08.000
+The idea for pandemic emergence is that it circulates in.
+
+00:33:08.000 --> 00:33:11.000
+Uh, these, these natural avian.
+
+00:33:11.000 --> 00:33:15.000
+Uh, hosts.
+
+00:33:15.000 --> 00:33:19.000
+Okay, highlighter. So it circulates… oh, not that one, sorry.
+
+00:33:19.000 --> 00:33:21.000
+It circulates in the.
+
+00:33:21.000 --> 00:33:26.000
+Uh, natural avian hosts, uh, spills over into a domestic animal.
+
+00:33:26.000 --> 00:33:32.000
+Into chickens and then into swine, swine potentially serving as a mixing vessel.
+
+00:33:32.000 --> 00:33:38.000
+But we know humans can be directly infected with avian influenza, and they potentially could be a mixing vessel as well.
+
+00:33:38.000 --> 00:33:43.000
+What we learned is that the process for this virus to emerge.
+
+00:33:43.000 --> 00:33:48.000
+was about a 30-40 year period.
+
+00:33:48.000 --> 00:33:50.000
+Uh, so, the.
+
+00:33:50.000 --> 00:33:54.000
+H1 actually shares origins with the 1918 virus.
+
+00:33:54.000 --> 00:33:59.000
+itself, and that had been circulating in swine for many years, that was called classic swine.
+
+00:33:59.000 --> 00:34:03.000
+In and throughout Eurasia and North America.
+
+00:34:03.000 --> 00:34:07.000
+Uh, in the 1977, I believe.
+
+00:34:07.000 --> 00:34:10.000
+We had a fully avian virus.
+
+00:34:10.000 --> 00:34:12.000
+jump into swine. This is also an H1.
+
+00:34:12.000 --> 00:34:17.000
+And it was circulating in swine in Eurasia, and that became known as Eurasian avian-like.
+
+00:34:17.000 --> 00:34:23.000
+And then we had seasonal H3 influenza viruses that have been circulating in humans since 1968.
+
+00:34:23.000 --> 00:34:25.000
+Uh, and that.
+
+00:34:25.000 --> 00:34:29.000
+During a process of circulation, somehow jumped into swine.
+
+00:34:29.000 --> 00:34:34.000
+Then we had some individual avian genes jumping this green line, coming into swine.
+
+00:34:34.000 --> 00:34:40.000
+And we had something that emerged that was known as triple reassortant virus that was circulating in swine.
+
+00:34:40.000 --> 00:34:42.000
+Uh, and then in.
+
+00:34:42.000 --> 00:34:45.000
+I guess this period about the late 90s.
+
+00:34:45.000 --> 00:34:51.000
+Uh, it looks like we… there's an early possible time that we had some genes that came from Eurasia swine.
+
+00:34:51.000 --> 00:34:53.000
+Get into North America.
+
+00:34:53.000 --> 00:34:56.000
+Uh, and they somehow reassorted.
+
+00:34:56.000 --> 00:35:01.000
+And about 3 months before we recognized it in humans,
+
+00:35:01.000 --> 00:35:03.000
+these different genes all came together,
+
+00:35:03.000 --> 00:35:08.000
+to cause a pandemic. Okay, the 2009 pandemic. This was all uncovered.
+
+00:35:08.000 --> 00:35:11.000
+Through the analysis of genetic data.
+
+00:35:11.000 --> 00:35:16.000
+And this analysis actually happened in real time in the open.
+
+00:35:16.000 --> 00:35:22.000
+Data was being shared between different labs, they were being, uh, the analyses as they were being
+
+00:35:22.000 --> 00:35:26.000
+Conducted were being shared through an open access wiki page.
+
+00:35:26.000 --> 00:35:29.000
+Uh, that everybody could just come in and and.
+
+00:35:29.000 --> 00:35:32.000
+observe, scientists were able to comment on. It was a fascinating
+
+00:35:32.000 --> 00:35:35.000
+moment in the history of science.
+
+00:35:35.000 --> 00:35:43.000
+Uh, but that brings us to this era. I'm calling it the modern era, uh, but I'm not sure if that means anything, because something's going to happen in the future. So we need a better name.
+
+00:35:43.000 --> 00:35:50.000
+But it is characterized by open source molecular approaches that are extraordinarily fast-paced.
+
+00:35:50.000 --> 00:35:52.000
+If we think about SARS-CoV-2,
+
+00:35:52.000 --> 00:35:56.000
+At one point, we had 4,000 papers coming out a week.
+
+00:35:56.000 --> 00:36:01.000
+And a lot of them had new methods and new data, so it was extremely fast paced.
+
+00:36:01.000 --> 00:36:09.000
+And that fast pace, it's maybe pulled back a little bit, but the innovation that is driving it forward is still continuing.
+
+00:36:09.000 --> 00:36:12.000
+Uh, since this 2009 era.
+
+00:36:12.000 --> 00:36:17.000
+We've had a lot of disease outbreaks that we've really investigated during.
+
+00:36:17.000 --> 00:36:21.000
+Using genetic data, so we had.
+
+00:36:21.000 --> 00:36:29.000
+a cholera outbreak here in Haiti, we have measles in the Democratic Republic of Congo.
+
+00:36:29.000 --> 00:36:32.000
+Uh, we have MERS outbreak was identified from camels spilling into.
+
+00:36:32.000 --> 00:36:40.000
+into humans in the Middle East. Uh, then we've had Zika virus, including the outbreak that was linked to Brazil and Colombia and spread throughout the Americas.
+
+00:36:40.000 --> 00:36:44.000
+Um, and then we had the largest Ebola outbreak.
+
+00:36:44.000 --> 00:36:51.000
+Prior to the current Ebola outbreak and Chickagunya. This is not an exhaustive list, but there's a lot of them.
+
+00:36:51.000 --> 00:36:58.000
+So we are using this more and more since this period in 2009.
+
+00:36:58.000 --> 00:37:04.000
+We are using comparative genomics that were collecting these viruses from multiple.
+
+00:37:04.000 --> 00:37:06.000
+sources, and we're comparing them.
+
+00:37:06.000 --> 00:37:11.000
+And this is a cross-scale challenge. We're looking at it at the clinical side,
+
+00:37:11.000 --> 00:37:14.000
+Where the doctor is trying to understand.
+
+00:37:14.000 --> 00:37:18.000
+Uh, the, the doctor scientist is trying to understand how those genetic changes result.
+
+00:37:18.000 --> 00:37:21.000
+In disease and disease progression.
+
+00:37:21.000 --> 00:37:24.000
+We are using those genetic changes to trace.
+
+00:37:24.000 --> 00:37:26.000
+As viruses move between populations.
+
+00:37:26.000 --> 00:37:30.000
+Uh, or sorry, move within populations and how they move between populations.
+
+00:37:30.000 --> 00:37:35.000
+And we are trying to use this genetic data to understand how viruses emerge as they move between
+
+00:37:35.000 --> 00:37:40.000
+wild animal sources, domestic animal sources, interspecies transmission.
+
+00:37:40.000 --> 00:37:46.000
+and ultimately into human populations.
+
+00:37:46.000 --> 00:37:52.000
+We are analyzing genetic data, and we're analyzing genetic variation, and how that variation emerges,
+
+00:37:52.000 --> 00:37:57.000
+Well, that… that genetic variation emerges through evolutionary processes.
+
+00:37:57.000 --> 00:37:59.000
+So there's four basic mechanisms.
+
+00:37:59.000 --> 00:38:06.000
+Uh, in which biological evolution takes place. These are mutation, migration, genetic drift, and natural selection.
+
+00:38:06.000 --> 00:38:09.000
+Most people have heard about natural selection.
+
+00:38:09.000 --> 00:38:14.000
+But these other ones are huge players in generating and increasing and decreasing.
+
+00:38:14.000 --> 00:38:16.000
+Genetic variation.
+
+00:38:16.000 --> 00:38:21.000
+So mutation increases genetic variation, migration decreases it.
+
+00:38:21.000 --> 00:38:23.000
+uh, genetic drift increases it.
+
+00:38:23.000 --> 00:38:26.000
+And natural selection decreases it.
+
+00:38:26.000 --> 00:38:31.000
+So when we observe a sequence, when we sequence a population of viruses,
+
+00:38:31.000 --> 00:38:35.000
+We're observing the action of all of these
+
+00:38:35.000 --> 00:38:37.000
+The result of all of these different mechanisms,
+
+00:38:37.000 --> 00:38:43.000
+at a single moment. So we're observing the genetic diversity that results from.
+
+00:38:43.000 --> 00:38:45.000
+these different processes.
+
+00:38:45.000 --> 00:38:48.000
+And to do that, we often use a phylogenetic tree.
+
+00:38:48.000 --> 00:38:56.000
+Well, a phylogenetic tree is an evolutionary hypothesis. It is not a drawing. It is a scientific hypothesis,
+
+00:38:56.000 --> 00:39:04.000
+That shows the history and relationships of common descent of the observed genetic variation.
+
+00:39:04.000 --> 00:39:09.000
+Darwin and Wallace formulate this theory of evolution by common descent.
+
+00:39:09.000 --> 00:39:14.000
+1859, Darwin publishes The Origin of Species.
+
+00:39:14.000 --> 00:39:21.000
+And then we have this period of the modern synthesis to 1920 and 1940.
+
+00:39:21.000 --> 00:39:25.000
+Leading up to the the discovery of DNA.
+
+00:39:25.000 --> 00:39:28.000
+So ecology itself.
+
+00:39:28.000 --> 00:39:31.000
+proposes the mechanism for genetic variation.
+
+00:39:31.000 --> 00:39:37.000
+Uh, epidemiology studies patterns and causes and effects of those… on those populations.
+
+00:39:37.000 --> 00:39:39.000
+An ecological study
+
+00:39:39.000 --> 00:39:44.000
+is an epidemiological study in which the unit of analysis is a population.
+
+00:39:44.000 --> 00:39:46.000
+Rather than an individual.
+
+00:39:46.000 --> 00:39:51.000
+Okay, so if we're trying to understand how viruses move between populations.
+
+00:39:51.000 --> 00:39:53.000
+That is an ecological study.
+
+00:39:53.000 --> 00:40:00.000
+Uh, if we're trying to look at how viruses move within populations and how individuals move,
+
+00:40:00.000 --> 00:40:06.000
+That would be an epidemiological study. So these fields are already related in how we conceptualize these things.
+
+00:40:06.000 --> 00:40:13.000
+And the nice thing about genetic data is that it does cross these scales, especially pathogen genetic data.
+
+00:40:13.000 --> 00:40:20.000
+The pathogen will replicate within a cell that will be transmitted to another individual, which will replicate within the cell.
+
+00:40:20.000 --> 00:40:23.000
+which will be transmitted between populations.
+
+00:40:23.000 --> 00:40:30.000
+So the virus carries that signal as it moves through populations and.
+
+00:40:30.000 --> 00:40:32.000
+from that individual cell all the way up,
+
+00:40:32.000 --> 00:40:36.000
+to the spread between populations.
+
+00:40:36.000 --> 00:40:40.000
+To understand these things, we often use a phylogenetic tree.
+
+00:40:40.000 --> 00:40:42.000
+So here's a toy tree, okay?
+
+00:40:42.000 --> 00:40:46.000
+This is something I use in trying to explain what a phylogenetic tree is.
+
+00:40:46.000 --> 00:40:50.000
+And a phylogenetic tree has dimensions.
+
+00:40:50.000 --> 00:40:55.000
+Often the branches, the vertical dimension doesn't actually have too much meaning.
+
+00:40:55.000 --> 00:40:58.000
+But the horizontal dimension.
+
+00:40:58.000 --> 00:41:02.000
+tells us a lot. It tells us how much.
+
+00:41:02.000 --> 00:41:09.000
+Uh, genetic change has happened. So the length of the line tells us over a longer line.
+
+00:41:09.000 --> 00:41:12.000
+For example, this one over here,
+
+00:41:12.000 --> 00:41:17.000
+tells us that more genetic change has happened compared to the.
+
+00:41:17.000 --> 00:41:20.000
+branch right behind it, okay?
+
+00:41:20.000 --> 00:41:27.000
+to have larger genetic change, we often need more time. So we could translate these into units of time.
+
+00:41:27.000 --> 00:41:33.000
+But the important point is that the branch length itself is informative.
+
+00:41:33.000 --> 00:41:38.000
+vertical dimension is non-interpretable. It doesn't actually have any meaning.
+
+00:41:38.000 --> 00:41:42.000
+The scale bar tells us the length
+
+00:41:42.000 --> 00:41:48.000
+of branch that's equivalent to a certain amount of genetic change or a certain amount of time. So in this case,
+
+00:41:48.000 --> 00:41:53.000
+It is a 0.5 nucleotide substitutions per site. That would mean 50% of the genome,
+
+00:41:53.000 --> 00:42:00.000
+changes over this length of time, or this length of branch.
+
+00:42:00.000 --> 00:42:02.000
+We also have structure in a tree.
+
+00:42:02.000 --> 00:42:08.000
+How do we talk about trees? Trees have leaves, branches, roots, trunks,
+
+00:42:08.000 --> 00:42:11.000
+We use the same terminology, often interchangeably.
+
+00:42:11.000 --> 00:42:15.000
+So these blue boxes here, these are our tip taxon virus' leaves.
+
+00:42:15.000 --> 00:42:19.000
+Uh, and these are where we find our sequence viruses.
+
+00:42:19.000 --> 00:42:24.000
+And we know things about that, so we also have metadata associated there, which might be the date of isolation.
+
+00:42:24.000 --> 00:42:29.000
+The location of isolation or maybe some clinical features.
+
+00:42:29.000 --> 00:42:33.000
+Branches come together at nodes, just like they do on trees.
+
+00:42:33.000 --> 00:42:37.000
+Uh, and these are the putative common ancestor.
+
+00:42:37.000 --> 00:42:42.000
+And then trees go along a trunk or branches come together at nodes.
+
+00:42:42.000 --> 00:42:48.000
+Uh, that all come together in a trunk of a tree that leads all the way back down to the roots.
+
+00:42:48.000 --> 00:42:51.000
+The root provides us with directionality,
+
+00:42:51.000 --> 00:42:55.000
+or a sequence of events as you move through the tree.
+
+00:42:55.000 --> 00:42:59.000
+So, a root says, trees grow up from the root.
+
+00:42:59.000 --> 00:43:07.000
+Uh, as this analogy goes, the same thing from this phylogenetic tree. They grew from the roots.
+
+00:43:07.000 --> 00:43:09.000
+Out, okay?
+
+00:43:09.000 --> 00:43:12.000
+Or away from the root.
+
+00:43:12.000 --> 00:43:17.000
+Uh, when we have these groups together,
+
+00:43:17.000 --> 00:43:25.000
+Uh, we say that they're monophyletic. If they… that means all members here within this group share a common ancestry, that means these green individuals.
+
+00:43:25.000 --> 00:43:27.000
+come from a common ancestor.
+
+00:43:27.000 --> 00:43:33.000
+If these green individuals are spread throughout the tree, we would say that this is paraphyletic.
+
+00:43:33.000 --> 00:43:41.000
+And this is a group of organisms descended from a common ancestor, but it doesn't include all members of the group. It would also include these blue members here.
+
+00:43:41.000 --> 00:43:44.000
+Because we have to go back to this node.
+
+00:43:44.000 --> 00:43:48.000
+So when we have a phylogenetic tree, we can start reading things about the relationship.
+
+00:43:48.000 --> 00:43:56.000
+So maybe we have a pathogen that's found in a cold environment and a pathogen that's found in a hot environment.
+
+00:43:56.000 --> 00:44:01.000
+And we might be asking, are these things monophyletic, or are they separate? So here we say.
+
+00:44:01.000 --> 00:44:05.000
+The cold individuals group together, they form one circle.
+
+00:44:05.000 --> 00:44:08.000
+The hot individuals, they form another circle.
+
+00:44:08.000 --> 00:44:12.000
+But all these temperature-dependent individuals share a common ancestor.
+
+00:44:12.000 --> 00:44:16.000
+Or a common source at some point in its history.
+
+00:44:16.000 --> 00:44:24.000
+Maybe we'll be looking at geographic areas. Here we have things that are in the Antarctic, the Arctic, and South America, cold deserts.
+
+00:44:24.000 --> 00:44:27.000
+And then we have Asia, North America, and Africa.
+
+00:44:27.000 --> 00:44:32.000
+Uh, and maybe some, some hot deserts found in these different areas.
+
+00:44:32.000 --> 00:44:34.000
+Uh, Martha Nelson.
+
+00:44:34.000 --> 00:44:40.000
+has a great example of applying this. She looked at the.
+
+00:44:40.000 --> 00:44:45.000
+the spread and global patterns of influenza.
+
+00:44:45.000 --> 00:44:47.000
+And she said, okay, well.
+
+00:44:47.000 --> 00:44:54.000
+If Northern and Southern Hemisphere epidemics group together, we have underlying migration model.
+
+00:44:54.000 --> 00:44:59.000
+Or, if all the southern epidemic is monophyletic and the northern epidemic is monophyletic.
+
+00:44:59.000 --> 00:45:04.000
+Then we say that we might see a seasonal peak, but the virus is staying there. It's latent within those
+
+00:45:04.000 --> 00:45:07.000
+those regions every year.
+
+00:45:07.000 --> 00:45:13.000
+Uh, and when we look at some real data, each of these colors represent different locations. I believe the blue is New York,
+
+00:45:13.000 --> 00:45:17.000
+Uh, orange is New Zealand.
+
+00:45:17.000 --> 00:45:20.000
+There's Australia, and…
+
+00:45:20.000 --> 00:45:24.000
+Probably another region as well here. But what we see is that these colors
+
+00:45:24.000 --> 00:45:29.000
+are all clustered together, that we don't see just one branch that is all red,
+
+00:45:29.000 --> 00:45:38.000
+Or one branch that is all blue, okay? So we have a migration model. And they showed from this that influenza A virus migrates between hemispheres.
+
+00:45:38.000 --> 00:45:45.000
+During non-epidemic periods, rather than persisting locally at low levels during influenza's off-season.
+
+00:45:45.000 --> 00:45:53.000
+That's very important for how we select vaccines. That's a concept that is why we need to do surveillance in the Southern Hemisphere.
+
+00:45:53.000 --> 00:45:58.000
+And update our vaccines in the the Northern hemisphere.
+
+00:45:58.000 --> 00:46:04.000
+So we can go a little further with this example and talk about, like, reading this.
+
+00:46:04.000 --> 00:46:11.000
+This relationship, imagine antibiotic resistance, we have hospital 1 and Hospital 2.
+
+00:46:11.000 --> 00:46:14.000
+Uh, and…
+
+00:46:14.000 --> 00:46:21.000
+And we might say that, hey, these 2 individuals here, they're very closely related, they were likely infected by the same source.
+
+00:46:21.000 --> 00:46:25.000
+So the question is, is that hospital the primary source of this epidemic?
+
+00:46:25.000 --> 00:46:30.000
+And we see, oh no, actually we have a link to this other hospital.
+
+00:46:30.000 --> 00:46:35.000
+that this individual was likely infected by something that was still circulating in that same.
+
+00:46:35.000 --> 00:46:38.000
+Hospital, but there's been some time between.
+
+00:46:38.000 --> 00:46:41.000
+Those two individuals and that infection.
+
+00:46:41.000 --> 00:46:47.000
+And we can go further saying, yeah, that might be the case, but it looks like, ultimately, this individual here,
+
+00:46:47.000 --> 00:46:52.000
+In Hospital 2 shares a common ancestor, and that might be the source, okay?
+
+00:46:52.000 --> 00:47:03.000
+So as we're going back into the tree, it could tell us something about maybe our hygiene within the hospital, or the role of patient transfer between hospitals in spreading the disease.
+
+00:47:03.000 --> 00:47:05.000
+The important point to consider.
+
+00:47:05.000 --> 00:47:07.000
+Uh, as we look at this,
+
+00:47:07.000 --> 00:47:12.000
+is that the shape of the tree is not always obvious.
+
+00:47:12.000 --> 00:47:15.000
+Uh, and why it's shaped that way.
+
+00:47:15.000 --> 00:47:18.000
+These are 3 different phylogenetic trees.
+
+00:47:18.000 --> 00:47:23.000
+All produced with H3 influenza, one of the influenza subtypes.
+
+00:47:23.000 --> 00:47:26.000
+that are found in different host animals.
+
+00:47:26.000 --> 00:47:31.000
+So we have H3N2 that's found in humans, we get this long, spindly tree.
+
+00:47:31.000 --> 00:47:33.000
+Where most of the genetic variation.
+
+00:47:33.000 --> 00:47:41.000
+doesn't persist between seasons, it is, it is removed, so we have an explosion of genetic variation during an epidemic.
+
+00:47:41.000 --> 00:47:43.000
+But the vast majority of those variants
+
+00:47:43.000 --> 00:47:47.000
+die out. Very limited genetic variation.
+
+00:47:47.000 --> 00:47:52.000
+Continues to survive between epidemics and moving to the next season.
+
+00:47:52.000 --> 00:47:56.000
+So, we think that's driven by human immune response, a strong.
+
+00:47:56.000 --> 00:47:59.000
+Immune response and and vaccine.
+
+00:47:59.000 --> 00:48:05.000
+Selection that removes a lot of that genetic variation, the natural selection removes that genetic variation.
+
+00:48:05.000 --> 00:48:08.000
+And we end up with a tree that looks like this.
+
+00:48:08.000 --> 00:48:13.000
+Okay, well, if we look at H3 in wild birds.
+
+00:48:13.000 --> 00:48:16.000
+These tend to persist for a really long time.
+
+00:48:16.000 --> 00:48:19.000
+The common ancestor goes back to the 1800s.
+
+00:48:19.000 --> 00:48:24.000
+We have really long branches, and we don't see an explosion of tips.
+
+00:48:24.000 --> 00:48:26.000
+Indicating any sort of.
+
+00:48:26.000 --> 00:48:32.000
+uh, epidemic growth. It looks like the population is constant over time.
+
+00:48:32.000 --> 00:48:35.000
+And those viruses will persist for long, long periods.
+
+00:48:35.000 --> 00:48:38.000
+So the determinant of genetic variation
+
+00:48:38.000 --> 00:48:43.000
+It's very different than what we see in humans, and that is evident in the phylogenetic tree.
+
+00:48:43.000 --> 00:48:48.000
+When we look for H3 viruses that have spilled over from wild birds into domestic poultry,
+
+00:48:48.000 --> 00:48:54.000
+We tend to have a long branch that goes to the root, and then an explosion of tips.
+
+00:48:54.000 --> 00:48:57.000
+Almost like a palm tree. So we have this.
+
+00:48:57.000 --> 00:49:00.000
+Long branch, and then many, many tips, meaning
+
+00:49:00.000 --> 00:49:07.000
+Uh, some sort of epidemic transmission, okay? So that's a signal that would tell us that we are having.
+
+00:49:07.000 --> 00:49:14.000
+Exponential growth in that population, or exponential spread within that population. And that's what we're seeing.
+
+00:49:14.000 --> 00:49:19.000
+With avian influenza, when it spills over, even low-path avian influenza, when it spills over.
+
+00:49:19.000 --> 00:49:22.000
+From the wild population.
+
+00:49:22.000 --> 00:49:26.000
+into domestic birds, we get that explosive growth and that clonal spread.
+
+00:49:26.000 --> 00:49:29.000
+Through that population.
+
+00:49:29.000 --> 00:49:36.000
+So again, the epidemic process is now shaping that tree.
+
+00:49:36.000 --> 00:49:44.000
+Uh, so, just as I start to close up, get towards the end here, I want to bring you back to that pathogen genomics.
+
+00:49:44.000 --> 00:49:48.000
+Course. This is a self-directed course.
+
+00:49:48.000 --> 00:49:54.000
+A number of my students have contributed to it or evaluated it in its development.
+
+00:49:54.000 --> 00:50:00.000
+And I believe a number of people that are online have taken this class. This is an excellent class.
+
+00:50:00.000 --> 00:50:02.000
+This will cover some of the foundations.
+
+00:50:02.000 --> 00:50:06.000
+In more detail than we're gonna be able to cover.
+
+00:50:06.000 --> 00:50:08.000
+Alright, we're trying, we're trying to.
+
+00:50:08.000 --> 00:50:11.000
+To link that genetic analysis to
+
+00:50:11.000 --> 00:50:15.000
+to policy, but these guys will give you even additional background.
+
+00:50:15.000 --> 00:50:21.000
+This is free, it is self-directed, the individual videos are very short.
+
+00:50:21.000 --> 00:50:26.000
+Uh, and it allows you to test your knowledge going in, and your knowledge coming out.
+
+00:50:26.000 --> 00:50:28.000
+As you're doing that, so.
+
+00:50:28.000 --> 00:50:34.000
+Please have a look at it. This comes from the Pathogenomic Centers of Excellence.
+
+00:50:34.000 --> 00:50:38.000
+This is something that we've heard has just been excellent for.
+
+00:50:38.000 --> 00:50:44.000
+professional development and and filling a gap that's currently not offered here as well.
+
+00:50:44.000 --> 00:50:49.000
+The paper for next week is this case study.
+
+00:50:49.000 --> 00:50:54.000
+Uh, looking at whole genome sequencing and social network analysis of TB.
+
+00:50:54.000 --> 00:50:58.000
+In Vancouver, uh, during a particular period.
+
+00:50:58.000 --> 00:51:02.000
+This is a elegant and beautiful study.
+
+00:51:02.000 --> 00:51:06.000
+Uh, so we are going to talk about that. So, so.
+
+00:51:06.000 --> 00:51:14.000
+Please read this paper and so you can get the most out of that discussion part.
+
+00:51:14.000 --> 00:51:21.000
+Uh, and then, for each case study, uh, there will be an article that participants should plan to read before the session.
+
+00:51:21.000 --> 00:51:26.000
+The article has been provided as long as well as a reading guide.
+
+00:51:26.000 --> 00:51:29.000
+Uh, in this GitHub here, okay?
+
+00:51:29.000 --> 00:51:32.000
+Uh, and this GitHub is being.
+
+00:51:32.000 --> 00:51:36.000
+hosted and managed by our partners in
+
+00:51:36.000 --> 00:51:42.000
+uh, developing this class, this, this course, in particular the the Florida Department of Public Health.
+
+00:51:42.000 --> 00:51:45.000
+Bioinformatics team there.
+
+00:51:45.000 --> 00:51:51.000
+Okay, so I am going to stop here, because I've given you guys a lot.
